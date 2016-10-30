@@ -49,8 +49,43 @@ public class MainActivity extends AppCompatActivity {
         mViewPager = (ViewPager) findViewById(R.id.container);
         mViewPager.setAdapter(mSectionsPagerAdapter);
 
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
+        final TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
+
+        tabLayout.getTabAt(0).setIcon(R.drawable.ic_alarm_black_24dp_white);
+        tabLayout.getTabAt(1).setIcon(R.drawable.mosque);
+        tabLayout.getTabAt(2).setIcon(R.drawable.islamic_prayer);
+
+        tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+            @Override
+            public void onTabSelected(TabLayout.Tab tab) {
+                int position = tab.getPosition();
+                if (position == 0) {
+                    tabLayout.getTabAt(0).setIcon(R.drawable.ic_alarm_black_24dp_white);
+                    tabLayout.getTabAt(1).setIcon(R.drawable.mosque);
+                    tabLayout.getTabAt(2).setIcon(R.drawable.islamic_prayer);
+                } else if (position == 1) {
+                    tabLayout.getTabAt(0).setIcon(R.drawable.ic_alarm_black_24dp);
+                    tabLayout.getTabAt(1).setIcon(R.drawable.mosque_white);
+                    tabLayout.getTabAt(2).setIcon(R.drawable.islamic_prayer);
+                } else if (position == 2) {
+                    tabLayout.getTabAt(0).setIcon(R.drawable.ic_alarm_black_24dp);
+                    tabLayout.getTabAt(1).setIcon(R.drawable.mosque);
+                    tabLayout.getTabAt(2).setIcon(R.drawable.islamic_prayer_white);
+                }
+            }
+
+            @Override
+            public void onTabUnselected(TabLayout.Tab tab) {
+
+            }
+
+            @Override
+            public void onTabReselected(TabLayout.Tab tab) {
+
+            }
+        });
+
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -148,11 +183,11 @@ public class MainActivity extends AppCompatActivity {
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "HARI INI";
+                    return "";
                 case 1:
-                    return "IBADAH";
+                    return "";
                 case 2:
-                    return "DO'A";
+                    return "";
             }
             return null;
         }
