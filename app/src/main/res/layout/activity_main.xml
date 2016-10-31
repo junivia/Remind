@@ -29,7 +29,8 @@
             android:id="@+id/tabs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:tabIndicatorHeight="4dp" />
+            app:tabIndicatorHeight="4dp"
+            android:fillViewport="false" />
 
     </android.support.design.widget.AppBarLayout>
 
