@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="xiirpl107172737.project.smktelkom_mlg.sch.id.remind.MainActivity">
+    tools:context="xiirpl107172737.project.smktelkom_mlg.sch.id.remind.IslamActivity">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar"
@@ -29,8 +29,8 @@
             android:id="@+id/tabs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:tabIndicatorHeight="4dp"
-            android:fillViewport="false" />
+            android:fillViewport="false"
+            app:tabIndicatorHeight="4dp" />
 
     </android.support.design.widget.AppBarLayout>
 
