@@ -150,10 +150,10 @@ public class IslamActivity extends AppCompatActivity {
                                  Bundle savedInstanceState) {
 
             if (getArguments().getInt(ARG_SECTION_NUMBER) == 1) {
-                View rootView = inflater.inflate(R.layout.today, container, false);
+                View rootView = inflater.inflate(R.layout.today_katolik, container, false);
                 return rootView;
             } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 1) {
-                View rootView = inflater.inflate(R.layout.reminder, container, false);
+                View rootView = inflater.inflate(R.layout.reminder_islam, container, false);
                 return rootView;
             } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 1) {
                 View rootView = inflater.inflate(R.layout.doa, container, false);
