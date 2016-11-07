@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".IslamActivity"
+            android:name=".AwalActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -18,6 +18,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".IslamActivity"
+            android:label="@string/title_activity_islam_layout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KristenActivity"
+            android:label="@string/title_activity_kristen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KatolikActivity"
+            android:label="@string/title_activity_katolik"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HinduActivity"
+            android:label="@string/title_activity_hindu"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

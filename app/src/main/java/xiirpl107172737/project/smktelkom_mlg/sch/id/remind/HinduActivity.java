@@ -37,7 +37,7 @@ public class HinduActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.islam);
+        setContentView(R.layout.activity_hindu);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -53,8 +53,8 @@ public class HinduActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(mViewPager);
 
         tabLayout.getTabAt(0).setIcon(R.drawable.ic_alarm_black_24dp_white);
-        tabLayout.getTabAt(1).setIcon(R.drawable.mosque);
-        tabLayout.getTabAt(2).setIcon(R.drawable.islamic_prayer);
+        tabLayout.getTabAt(1).setIcon(R.drawable.bratan);
+        tabLayout.getTabAt(2).setIcon(R.drawable.praying);
 
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
@@ -62,16 +62,16 @@ public class HinduActivity extends AppCompatActivity {
                 int position = tab.getPosition();
                 if (position == 0) {
                     tabLayout.getTabAt(0).setIcon(R.drawable.ic_alarm_black_24dp_white);
-                    tabLayout.getTabAt(1).setIcon(R.drawable.mosque);
-                    tabLayout.getTabAt(2).setIcon(R.drawable.islamic_prayer);
+                    tabLayout.getTabAt(1).setIcon(R.drawable.bratan);
+                    tabLayout.getTabAt(2).setIcon(R.drawable.praying);
                 } else if (position == 1) {
                     tabLayout.getTabAt(0).setIcon(R.drawable.ic_alarm_black_24dp);
-                    tabLayout.getTabAt(1).setIcon(R.drawable.mosque_white);
-                    tabLayout.getTabAt(2).setIcon(R.drawable.islamic_prayer);
+                    tabLayout.getTabAt(1).setIcon(R.drawable.bratan_white);
+                    tabLayout.getTabAt(2).setIcon(R.drawable.praying);
                 } else if (position == 2) {
                     tabLayout.getTabAt(0).setIcon(R.drawable.ic_alarm_black_24dp);
-                    tabLayout.getTabAt(1).setIcon(R.drawable.mosque);
-                    tabLayout.getTabAt(2).setIcon(R.drawable.islamic_prayer_white);
+                    tabLayout.getTabAt(1).setIcon(R.drawable.bratan);
+                    tabLayout.getTabAt(2).setIcon(R.drawable.praying_white);
                 }
             }
 
@@ -85,7 +85,6 @@ public class HinduActivity extends AppCompatActivity {
 
             }
         });
-
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -102,7 +101,7 @@ public class HinduActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.menu_hindu, menu);
         return true;
     }
 
@@ -149,7 +148,7 @@ public class HinduActivity extends AppCompatActivity {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_main, container, false);
+            View rootView = inflater.inflate(R.layout.fragment_hindu, container, false);
             TextView textView = (TextView) rootView.findViewById(R.id.section_label);
             textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
             return rootView;
