@@ -15,6 +15,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 public class KatolikActivity extends AppCompatActivity {
 
@@ -36,7 +37,7 @@ public class KatolikActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.islam);
+        setContentView(R.layout.activity_katolik);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -52,8 +53,8 @@ public class KatolikActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(mViewPager);
 
         tabLayout.getTabAt(0).setIcon(R.drawable.ic_alarm_black_24dp_white);
-        tabLayout.getTabAt(1).setIcon(R.drawable.mosque);
-        tabLayout.getTabAt(2).setIcon(R.drawable.islamic_prayer);
+        tabLayout.getTabAt(1).setIcon(R.drawable.church);
+        tabLayout.getTabAt(2).setIcon(R.drawable.prayer);
 
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
@@ -61,16 +62,16 @@ public class KatolikActivity extends AppCompatActivity {
                 int position = tab.getPosition();
                 if (position == 0) {
                     tabLayout.getTabAt(0).setIcon(R.drawable.ic_alarm_black_24dp_white);
-                    tabLayout.getTabAt(1).setIcon(R.drawable.mosque);
-                    tabLayout.getTabAt(2).setIcon(R.drawable.islamic_prayer);
+                    tabLayout.getTabAt(1).setIcon(R.drawable.church);
+                    tabLayout.getTabAt(2).setIcon(R.drawable.prayer);
                 } else if (position == 1) {
                     tabLayout.getTabAt(0).setIcon(R.drawable.ic_alarm_black_24dp);
-                    tabLayout.getTabAt(1).setIcon(R.drawable.mosque_white);
-                    tabLayout.getTabAt(2).setIcon(R.drawable.islamic_prayer);
+                    tabLayout.getTabAt(1).setIcon(R.drawable.church_white);
+                    tabLayout.getTabAt(2).setIcon(R.drawable.prayer);
                 } else if (position == 2) {
                     tabLayout.getTabAt(0).setIcon(R.drawable.ic_alarm_black_24dp);
-                    tabLayout.getTabAt(1).setIcon(R.drawable.mosque);
-                    tabLayout.getTabAt(2).setIcon(R.drawable.islamic_prayer_white);
+                    tabLayout.getTabAt(1).setIcon(R.drawable.church);
+                    tabLayout.getTabAt(2).setIcon(R.drawable.prayer_white);
                 }
             }
 
@@ -84,7 +85,6 @@ public class KatolikActivity extends AppCompatActivity {
 
             }
         });
-
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -101,7 +101,7 @@ public class KatolikActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.menu_katolik, menu);
         return true;
     }
 
@@ -148,19 +148,10 @@ public class KatolikActivity extends AppCompatActivity {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
-
-            if (getArguments().getInt(ARG_SECTION_NUMBER) == 1) {
-                View rootView = inflater.inflate(R.layout.today_katolik, container, false);
-                return rootView;
-            } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 1) {
-                View rootView = inflater.inflate(R.layout.reminder_islam, container, false);
-                return rootView;
-            } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 1) {
-                View rootView = inflater.inflate(R.layout.doa, container, false);
-                return rootView;
-            }
-
-
+            View rootView = inflater.inflate(R.layout.fragment_katolik, container, false);
+            TextView textView = (TextView) rootView.findViewById(R.id.section_label);
+            textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
+            return rootView;
         }
     }
 
