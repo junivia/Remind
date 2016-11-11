@@ -53,7 +53,7 @@ public class HinduActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(mViewPager);
 
         tabLayout.getTabAt(0).setIcon(R.drawable.ic_alarm_black_24dp_white);
-        tabLayout.getTabAt(1).setIcon(R.drawable.bratan);
+        tabLayout.getTabAt(1).setIcon(R.drawable.bratanh);
         tabLayout.getTabAt(2).setIcon(R.drawable.praying);
 
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
@@ -62,15 +62,15 @@ public class HinduActivity extends AppCompatActivity {
                 int position = tab.getPosition();
                 if (position == 0) {
                     tabLayout.getTabAt(0).setIcon(R.drawable.ic_alarm_black_24dp_white);
-                    tabLayout.getTabAt(1).setIcon(R.drawable.bratan);
+                    tabLayout.getTabAt(1).setIcon(R.drawable.bratanh);
                     tabLayout.getTabAt(2).setIcon(R.drawable.praying);
                 } else if (position == 1) {
                     tabLayout.getTabAt(0).setIcon(R.drawable.ic_alarm_black_24dp);
-                    tabLayout.getTabAt(1).setIcon(R.drawable.bratan_white);
+                    tabLayout.getTabAt(1).setIcon(R.drawable.bratanw);
                     tabLayout.getTabAt(2).setIcon(R.drawable.praying);
                 } else if (position == 2) {
                     tabLayout.getTabAt(0).setIcon(R.drawable.ic_alarm_black_24dp);
-                    tabLayout.getTabAt(1).setIcon(R.drawable.bratan);
+                    tabLayout.getTabAt(1).setIcon(R.drawable.bratanh);
                     tabLayout.getTabAt(2).setIcon(R.drawable.praying_white);
                 }
             }

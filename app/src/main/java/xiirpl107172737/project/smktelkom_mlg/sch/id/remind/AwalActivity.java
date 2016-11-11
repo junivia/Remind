@@ -12,6 +12,7 @@ public class AwalActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_layout_awal);
 
+
         findViewById(R.id.button_islam).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -26,7 +27,7 @@ public class AwalActivity extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.button_katolik).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.button_katholik).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(AwalActivity.this, KatolikActivity.class));
