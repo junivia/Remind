@@ -34,7 +34,23 @@
         <activity
             android:name=".HinduActivity"
             android:label="@string/title_activity_hindu"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DoaIslamActivity"
+            android:label="@string/title_activity_islam_layout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DoaHinduActivity"
+            android:label="@string/title_activity_hindu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DoaKristenActivity"
+            android:label="@string/title_activity_kristen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DoaKatolikActivity"
+            android:label="@string/title_activity_katolik"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

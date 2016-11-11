@@ -40,5 +40,6 @@ public class AwalActivity extends AppCompatActivity {
                 startActivity(new Intent(AwalActivity.this, KristenActivity.class));
             }
         });
+
     }
 }
