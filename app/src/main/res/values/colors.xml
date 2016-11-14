@@ -2,5 +2,9 @@
 <resources>
     <color name="colorPrimary">#212121</color>
     <color name="colorPrimaryDark">#000</color>
-    <color name="colorAccent">#4CAF50</color>
+    <color name="colorAccent">#fff</color>
+    <color name="islam">#5fab29</color>
+    <color name="hindu">#cfc508</color>
+    <color name="kristen">#1a8282</color>
+    <color name="katholik">#871848</color>
 </resources>
