@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="xiirpl107172737.project.smktelkom_mlg.sch.id.remind">
+    package="id.sch.smktelkom_mlg.project.xiirpl107172737.remind">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".SplashActivity"
+            android:name="id.sch.smktelkom_mlg.project.xiirpl107172737.remind.SplashActivity"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,7 +18,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".AwalActivity"
+            android:name="id.sch.smktelkom_mlg.project.xiirpl107172737.remind.AwalActivity"
 
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
@@ -29,35 +29,35 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".IslamActivity"
+            android:name="id.sch.smktelkom_mlg.project.xiirpl107172737.remind.IslamActivity"
             android:label="@string/title_activity_islam_layout"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".KristenActivity"
+            android:name="id.sch.smktelkom_mlg.project.xiirpl107172737.remind.KristenActivity"
             android:label="@string/title_activity_kristen"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".KatolikActivity"
+            android:name="id.sch.smktelkom_mlg.project.xiirpl107172737.remind.KatolikActivity"
             android:label="@string/title_activity_katolik"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".HinduActivity"
+            android:name="id.sch.smktelkom_mlg.project.xiirpl107172737.remind.HinduActivity"
             android:label="@string/title_activity_hindu"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".DoaIslamActivity"
+            android:name="id.sch.smktelkom_mlg.project.xiirpl107172737.remind.DoaIslamActivity"
             android:label="@string/title_activity_islam_layout"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".DoaHinduActivity"
+            android:name="id.sch.smktelkom_mlg.project.xiirpl107172737.remind.DoaHinduActivity"
             android:label="@string/title_activity_hindu"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".DoaKristenActivity"
+            android:name="id.sch.smktelkom_mlg.project.xiirpl107172737.remind.DoaKristenActivity"
             android:label="@string/title_activity_kristen"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".DoaKatolikActivity"
+            android:name="id.sch.smktelkom_mlg.project.xiirpl107172737.remind.DoaKatolikActivity"
             android:label="@string/title_activity_katolik"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>

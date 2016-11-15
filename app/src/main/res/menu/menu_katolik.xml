@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="xiirpl107172737.project.smktelkom_mlg.sch.id.remind.KatolikActivity">
+    tools:context="id.sch.smktelkom_mlg.project.xiirpl107172737.remind.KatolikActivity">
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"

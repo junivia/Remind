@@ -4,7 +4,7 @@ android {
     compileSdkVersion 24
     buildToolsVersion "24.0.2"
     defaultConfig {
-        applicationId "xiirpl107172737.project.smktelkom_mlg.sch.id.remind"
+        applicationId "id.sch.smktelkom_mlg.project.xiirpl107172737.remind"
         minSdkVersion 15
         targetSdkVersion 24
         versionCode 1
