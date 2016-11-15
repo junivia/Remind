@@ -21,7 +21,9 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void run() {
                 startActivity(new Intent(getApplicationContext(), AwalActivity.class));
+                finish();
             }
-        }, 3000);
+        }, 2500);
+
     }
 }
