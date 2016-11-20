@@ -16,7 +16,7 @@ public class AwalActivity extends AppCompatActivity {
         findViewById(R.id.button_islam).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(AwalActivity.this, IslamActivity.class));
+                startActivity(new Intent(AwalActivity.this, ReminderIslam.class));
             }
         });
 
