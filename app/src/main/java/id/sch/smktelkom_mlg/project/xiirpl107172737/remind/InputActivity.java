@@ -15,7 +15,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class InputActivity extends AppCompatActivity implements View.OnClickListener {
+public class InputActivity extends AppCompatActivity {
     private EditText editTextName;
     private EditText editTextDate;
     private EditText editTextTime;
@@ -36,7 +36,12 @@ public class InputActivity extends AppCompatActivity implements View.OnClickList
 
         btnAdd = (Button) findViewById(R.id.submit);
 
-        btnAdd.setOnClickListener(this);
+        btnAdd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                insertIntoDB();
+            }
+        });
 
     }
 
@@ -79,13 +84,6 @@ public class InputActivity extends AppCompatActivity implements View.OnClickList
         }
 
         return super.onOptionsItemSelected(item);
-    }
-
-    @Override
-    public void onClick(View v) {
-        if (v == btnAdd) {
-            insertIntoDB();
-        }
     }
 
 }
