@@ -1,42 +1,288 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/cardView"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="100dp"
-    android:layout_gravity="center"
-    android:layout_marginBottom="@dimen/activity_vertical_margin"
-    android:layout_marginLeft="@dimen/activity_horizontal_margin"
-    android:layout_marginRight="@dimen/activity_horizontal_margin"
-    android:foreground="?attr/selectableItemBackground">
+    android:layout_height="wrap_content">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="1000px"
         android:background="#e0e0e0"
         android:orientation="vertical"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp"
-        android:paddingTop="16dp">
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="id.sch.smktelkom_mlg.project.xiirpl107172737.remind.KristenActivity$PlaceholderFragment">
 
         <TextView
-            android:id="@+id/textViewJudul"
+            android:id="@+id/textViewJudul1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:maxLines="1"
-            android:text="Judul"
+            android:paddingTop="16dp"
+            android:text="Doa Penyembahan Pagi Hari"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
-            android:id="@+id/textViewDoa"
+            android:id="@+id/textViewDoa1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif"
+            android:maxLines="30"
+            android:padding="16dp"
+            android:text="BAPA kami yang di Surga, Allah Kami Maha Kuasa, segala puji dan hormat dan kemuliaan yang tertinggi hanya bagi Mu. Di awal hari ini, aku mau mengangkat tanganku dalam penyembahan kepada-Mu. Aku memuji Engkau untuk anugerah ari yang baru ini. Tak berkesudahan kasih setia Tuhan, berkat-Mu selalu baru tiap pagi. Hari ini adalah hari Mu Ya Tuhan, tubuh pikiran jiwaku adalah milik-Mu. Di hari ini, aku mau selalu percaya kepada Tuhan dengan segenap hatiku dan tidak bersandar kepada penggertianku sendiri. Di setiap langkahku hari ini, menghormati dan melibatkan Tuhan selalum Tuhan yang akan selalu mengendalikan dan memimpin di depan. Terima kasih Tuhan, Engkau bersama ku selalu sepanjang hari ini, dari awal hingga akhir. Dalam nama Yesus, Juru Selamat dan Penebus kami, Amin." />
+
+        <TextView
+            android:id="@+id/textViewGaris1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="_______________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Doa Untuk Memulai Awal Hari"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif"
+            android:maxLines="30"
             android:padding="16dp"
-            android:text="Doa"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+            android:text="Bapa, di dalam tangan-Mu yang Maha Kuat, aku letakkan hidupku hari ini. Dalam berserah sepenuhnya kepada-Mu, terangi dan tuntunlah jalanku. Tuhan Yesus, tolonglah aku untuk selalu ingat bahwa, tidak ada satupun yang bisa terjadi hari ini yang tanpa kasih dan penyertaan-Mu. Berilah hari ini kasih-Mu mengalir melalui hamba-Mu ini dan jadikan aku menggunakan waktu yang ada untuk membahagiakan kasih-Mu pada orang lain. Ya Tuhan, di langkah pertamaku hari ini, aku menyatakan bahwa, otoritas-Mu yang berkuasa di setiap bidang hidupku. Dalam nama Tuhan Yesus. Amin." />
 
+        <TextView
+            android:id="@+id/textViewGaris2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="_______________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:paddingTop="16dp"
+            android:text="Doa Pemberian Berkat Saat Melepas Anak ke Sekolah"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif"
+            android:maxLines="30"
+            android:padding="16dp"
+            android:text="Bapa, dengan kasih-Mu, aku menumpangkan tangankau ke atas anak ku ini dan melepaskan berkat-Mu ke atasnya untuk dia berangkat ke sekolahnya. Bapa, aku berdoa untuk damai sejahtera Tuhan memelihara pikiran dan dirinya, berikan dia kecerdasan-Mu. Jadikanlah hari ini anakku hanya memikirkan semua yang benar, yang mulia, yang suci dan semua yang disebut kebajikan. Bapa, aku berdoa supaya dari belakang dan dari depan Engkau mengurung anakku ini dan Engkau menaruh tangan-Mu ke atasnya. Anakku, Tuhan akan menjaga engkau terhadap segala bahaya, Tuhan akan menjaga keluar masukmu. Di dalam nama Tuhan Yesus, Amin." />
+
+        <TextView
+            android:id="@+id/textViewGaris3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="_______________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Doa Untuk Perjalanan"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif"
+            android:maxLines="30"
+            android:padding="16dp"
+            android:text="Dengan kasih-Mu ya Bapa, aku akan memulai perjalanan untuk hari ini, aku mengucap syukur terima kasih kepada Tuhan untuk perlindungan Tuhan atas ku dan atas seluruh keluargaku. Di bawah sayap-Mu kami berlindung, kesetiaan-Mu ialah perisai kami. Malaikat-malaikat-Mu menjada kami di segala jalan kami. Bapa, kami ingin memuliakan Tuhan disetiap jalan kami hari ini. Hamba-Mu ini berdoa, berikanlah kami cahaya sinar-Mu mengelilingi kami, kuasa-Mu menudungi kami dan kasih-Mu melingkupi kami dengan sempurna. Proteksi ajaib Tuhan sepenuhnya atas hidupku dan keluargaku. Terima kasih ya Bapa, Di dalam nama Tuhan Yesus, Amin" />
+
+        <TextView
+            android:id="@+id/textViewGaris4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="_______________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Doa Ucapan Syukur Di Akhir Hari"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif"
+            android:maxLines="30"
+            android:padding="16dp"
+            android:text="Bapa kami di dalam Surga, Kami sujud bersyukur kepada-Mu ya Tuhan atas hari ini yang akan segerea berlalu. Tangan kasih-Mu telah memeliharakan kami di sepanjang hari ini. Terima kasih untuk segenap kasih, berkat dan pemeliharaan Bapa bagi kami sekeluarga. Terima kasih Engkau telah mencukupkan segala kebutuhan hidup kami hari ini Terima kasih untuk anak-anak kami Terima kasih untuk tempat tinggal bernaung yang Tuhan berikan Terima kasih untuk setiap tangan pertolongan Tuhan bagi kami disepanjang hari ini. Segenap syukur terima kasih kami yang tak terhingga hanya bagi-Mu ya Tuhan. Ya Bapa, kami memohonkan pengampunan Tuhan atas kesalahan kami dihari ini, ampunilah kami jika kami ada melakukan yang Engkau sebenarnya tidak berkenan. Segala pujian dan kemuliaan hanya bagi Allah Bapa Maha Tinggi. Di dalam nama Tuhan Yesus Amin" />
+
+        <TextView
+            android:id="@+id/textViewGaris5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="_______________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Doa Pengamar Anak Kita Tidur"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif"
+            android:maxLines="30"
+            android:padding="16dp"
+            android:text="Bapa kami yang di Surga, Terima kasih telah memberkati hidup ku.Saat ini aku membaringkan diriku, Engkau lah Tuhan yang menjaga jiwaku.Hari ku telah berisi langit biru, maka tidurku pun akan dengan mimpi terindah.Jika malam menjadi gelap, Tuhan penjaga ku tidak akan terlelap.Tuhan Yesus menemani ku pasti, sampai aku bangun di cahaya pagi nanti.Berkatilah keluargaku, teman-temanku dan berkatilah anak-anak di seluruh dunia.Dalam nama Tuhan Yesus,Amin." />
+
+        <TextView
+            android:id="@+id/textViewGaris6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="_______________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Doa Sebelum Makan"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif"
+            android:maxLines="30"
+            android:padding="16dp"
+            android:text="Bapa, kami kening sejenak menundukkan kepala untuk mengucap syukur atas berkat-Mu yaitu, makanan ini. Kami berdoa, sucikan dan berkati Ya Tuhan, menjadi berkat dan kesehatan bagi kami, dan menjadi kekuatan bagi kami dalam menjalani pelayanan bagi Tuhan. Terima kasih ya Bapa, Engkau telah memberikan waktu kebersamaan bagi kami. Kami teringat saudara-saudara kami yang mungkin sedang berkesusahan saat ini dan belum makan, Tuhan juga berkati mereka semua. Terima kasih Tuhan Dalam nama Tuhan Yesus, Amin." />
+
+        <TextView
+            android:id="@+id/textViewGaris7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="_______________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Doa Bapa Kami"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif"
+            android:maxLines="30"
+            android:padding="16dp"
+            android:text="Bapa kami yang di Surga, Dikuduslah nama-Mu, Datanglah kerajaan-Mu, jadilah kehendak-Mu di bumi seperti di Surga. Berikanlah kami pada hari ini Makanan kami yang secukupnya Dan ampunilah kami akan keselahan kami, Seperti kami juga mengampuni Orang yang bersalah kepada kami Dan janganlah membawa kami ke dalam percobaan, Tetapi lepaskanlah kami dari pada yang jahat Karena Engkaulah yang empunya Kerajaan dan kuasa Dan kemuliaan sampai selama-lamanya  Amin." />
+
+        <TextView
+            android:id="@+id/textViewGaris8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="_______________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Pengakuan Imam Rasul"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif"
+            android:maxLines="30"
+            android:padding="16dp"
+            android:text="Aku percaya kepada Allah Bapa yang Maha Kuasa, Khalik langit dan bumi. Dan kepada Yesus Kristus, anaknya yang tunggal, Tuhan kita. Yang dikandung dari pada Roh Kudus, lahir anak dara Maria, yang enderita di bawah pemerintahan Pontius Pilatus, disalibkan, mati dan dikuburkan turun ke dalam kerajaan maut. Pada hari yang ketiga bangkit pula diantara orang mati, naik ke Surga, duduk di sebelah kanan Allah, Bapa yang Maha Kuasa, dan akan datang dari sana kelak untuk menghakimi orang yang hidup dan mati. Aku percaya kepada Roh Kudus, Gereja yang kudus dan am, Persekutuan orang kudus, Pengampunan dosa, Kebangkitan daging, Dan hidup yang kekal, Amin" />
+
+        <TextView
+            android:id="@+id/textViewGaris9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="_______________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
     </LinearLayout>
-
-</android.support.v7.widget.CardView>
+</ScrollView>

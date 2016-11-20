@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "665829331376",
+    "firebase_url": "https://remind-70df8.firebaseio.com",
+    "project_id": "remind-70df8",
+    "storage_bucket": "remind-70df8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665829331376:android:5c96b6ab1f03dd21",
+        "android_client_info": {
+          "package_name": "id.sch.smktelkom_mlg.project.xiirpl107172737.remind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665829331376-juf46p39jibfdhg0280op1fic5ln2l7l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmJq5MO38Aoq_Rarb1MiNiZON6vDVS1bs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
