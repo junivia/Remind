@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/cardView"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="100dp"
-    android:layout_gravity="center"
-    android:layout_marginBottom="@dimen/activity_vertical_margin"
-    android:layout_marginLeft="@dimen/activity_horizontal_margin"
-    android:layout_marginRight="@dimen/activity_horizontal_margin"
-    android:foreground="?attr/selectableItemBackground">
+    android:layout_height="wrap_content">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="1000px"
         android:background="#e0e0e0"
         android:orientation="vertical"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp"
-        android:paddingTop="16dp">
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="id.sch.smktelkom_mlg.project.xiirpl107172737.remind.HinduActivity$PlaceholderFragment">
 
         <TextView
             android:id="@+id/textViewJudul"
@@ -24,7 +21,8 @@
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:maxLines="1"
-            android:text="Judul"
+            android:paddingTop="16dp"
+            android:text="Doa panganjali"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -32,11 +30,919 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
-            android:maxLines="1"
+            android:lines="3"
             android:padding="16dp"
-            android:text="Doa"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+            android:text="OM Swastyastu \nArti :Semoga selalu dalam \n        lindungan hyang widhi"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
 
+        <TextView
+            android:id="@+id/textViewGaris"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="___________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Doa Sebelum Tidur"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:padding="16dp"
+            android:text="Om Asato Ma Sat Gamaya, Tamaso \nMa Jyotir Gamaya Mrityor Mamritan Gamaya
+            \nArti :Ya Tuhan, Tuntunlah Kami Dari Jalan Sesat Ke Jalan Yang Benar, Dari Jalan Gelap Ke Jalan Yang Terang Hindarkan Kami Dari Kematian Menuju Kehidupan Sejati"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewGaris22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="___________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Doa Baru Bangun Pagi "
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:padding="16dp"
+            android:text="Om Jagrasca Prabhata Kalasca Ya Namah Swaha
+            \nArti :Ya Tuhan, Hamba Memujamu, Bahwa Hamba Telah Bangun Pagi Dalam Keadaan Selamat."
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewGaris2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="___________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:paddingTop="16dp"
+            android:text="Doa Pada Waktu Mengenakan Pakaian "
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:padding="16dp"
+            android:text="Om Tam Mahadewaya Namah Swaha Om Bhusanam Sarirabhyo Parisudhamam Swaha
+            \nArti :Tuhan Dalam Perwujudanmu Sebagai Tat Purusha, Dewa Yang Maha Agung, Hamba Sujud Kepadamu Dalam Menggunakan Pakaian Ini. Semoga Pakaian Hamba Menjadi Bersih Dan Suci"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewGaris3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="___________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Doa Mulai Makan"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:padding="16dp"
+            android:text="Om Anugraha Amrtadi Sanjiwani Ya Namah Swaha
+            \nArti :Ya Tuhan Semoga Makanan Ini Menjadi Amerta Yang Menghidupkan Hamba"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewGaris4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="___________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Doa Sesudah Makan"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="20"
+            android:padding="16dp"
+            android:text="Om Dir Ghayur Astu, Awighnam Astu, Çubham AstuOm Sriyam Bhawantu, Sukkam Bhawantu, Purnam Bhawantu, Ksamasampurna Ya Namah SwahaOm Santih, Santih, Santih Om
+            \nArti :Ya Tuhan Semoga Hamba Panjang Umur, Tiada Halangan, Selalu Bahagia, Tentram, Senang Dan Semua Menjadi Sempurna Ya Tuhan, Semoga Damai, Damai, Damai, Selalu"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewGaris5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="___________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Doa Memulai Pekerjaan "
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:padding="16dp"
+            android:text="Om Awighnam Astu Namo SidhamOm Sidhirastu Tad Astu Swaha
+           \nArti :Ya Tuhan, Semoga Atas Berkenanmu, Tiada Suatu Halangan Bagi Hamba Memulai Pekerjaan Ini Dan Semoga Berhasil Baik"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewGaris6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="___________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Doa Selesai Bekerja / Bersyukur "
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:padding="16dp"
+            android:text="Om Dewa Suksma Parama Acintya Ya Namah Swaha, Sarwa Karya Prasidhantam. Om Santih, Santih, Santih, Om
+            \nArti :Ya Tuhan, Dalam Wujud Parama Acintya Yang Maha Gaib Dan Maha Karya, Hanya Atas Anugrahmulah Maka Pekerjaan Ini Berhasil Dengan BaikSemoga Damai, Damai Di Hati, Damai Di Dunia, Damai Selamanya"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewGaris7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="___________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Doa Mohon Bimbingan Tuhan "
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="20"
+            android:padding="16dp"
+            android:text="Om asato Ma Sadyamaya Tamaso Ma Jyotir Gamaya Mrtyor Ma Amrtam GamayaOm Agne Brahma Grbhniswa Dharunama Syanta Riksam DrdvamhaBrahmawanitwa Ksatrawani SajataWahyu Dadhami Bhratrwyasya Wadhyaya
+            \nArti :Tuhan Yang Maha Suci Bimbinglah Hamba Dari Yang Tidak Benar Menuju Yang Benar. Bimbinglah Hamba Dari Kegelapan Menuju Cahaya Pengetahuan Yang Terang. lepaskanlah Hamba Dari Kematian Menuju Kehidupan Yang Abadi. Tuhan Yang Maha Suci. Terimalah Pujian Yang Hamba Persembahkan Melalui Weda Mantra Dan Kembangkanlah Pengetahuan Rohani Hamba Agar Hamba Dapat Menghancurkan Musuh Yang Ada Pada Hamba (Nafsu). Hamba Menyadari Bahwa Engkaulah Yang Berada Dalam Setiap Insani (Jiwatman), Menolong Orang Terpelajar, Pemimpin Negara Dan Para Pejabat. Hamba Menuju Engkau Semoga Melimpahkan Anugerah Kekuatan Kepada Hamba"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewGaris8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="___________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Doa Mohon Inspirasi "
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:padding="16dp"
+            android:text="Om Prano Dewi Saraswati Wajebhir Wajiniwati Dhinam Awinyawantu
+            \nArti :Ya Tuhan Dalam Manifestasi Dewi Saraswati, Hyang Maha Agung Dan Maha Kuasa, Semoga Engkau Memancarkan Kekuatan Rohani, Kecerdasan Pikiran, Dan Lindungilah Hamba Selama-Lamanya"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewGaris9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="___________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Doa Mohon Kecerdasan"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:padding="16dp"
+            android:text="Om Pawakanah Saraswati Wajebhir Wajiniwati Yajnam Wastu Dhiyawasuh
+            \nArti :Ya Tuhan, Sebagai Manifestasi Dewi Saraswati, Yang Maha Suci, Anugerahilah Hamba Kecerdasan Dan Terimalah Persembahan Hamba Ini"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewGaris10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="___________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:paddingTop="16dp"
+            android:text="Doa Waktu Mulai Membaca Kitab Agama (Veda) "
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:padding="16dp"
+            android:text="Om Narayana, Om Saraswati Jaya
+            \nArti :Ya Tuhan , Narayana Oh Hyang Widhi (Saraswati) Semoga Hamba Menang (Berhasil) Jaya"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewGaris11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="___________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:paddingTop="16dp"
+            android:text="Doa Mulai Belajar "
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="20"
+            android:padding="16dp"
+            android:text="Om Purwe Jato Brahmano Brahmacari Dharmam Wasanas Tapasodatistat Tasmajjatam Brahmanam Brahma Iyestham Dewasca Sarwe Amrttna Sakama
+            \nArti :Ya Tuhan, Muridmu Hadir Dihadapanmu, Oh Brahman Yang Berselimutkan Kesaktian Dan Berdiri Sebagai Pertama, Tuhan, Anugrahkanlah Pengetahuan Dan Pikiran Yang Terang. Brahman Yang Agung, Setiap Mahkluk Hanya Dapat Bersinar Berkat Cahayamu Yang Senantiasa Memancar"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewGaris12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="___________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:paddingTop="16dp"
+            android:text="Doa Mengheningkan Cipta "
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:padding="16dp"
+            android:text="Om Mata Bhumih Putro Aham Prthivyah
+            \nArti :Ya Tuhan, Semoga Kami Mencintai Tanah Air Ini Sebagai Ibu Dan Hamba Adalah Putra-Putranya Yang Siap Sedia Membela Seperti Para Pahlawan Kami"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewGaris13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="___________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:paddingTop="16dp"
+            android:text="Doa Memotong Hewan"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="20"
+            android:padding="16dp"
+            android:text="Om Pasu Pasaya Wimahe Sirascadaya Dhimahi Tano Jiwah Pracodayat
+            \nArti :Semoga Atas Berkenan Dan Berkahmu Para Pemotong Hewan Dalam Upacara Kurban Suci Ini Beserta Orang-Orang Yang Telah Berdana Punia Untuk Yadnya Ini Memperoleh Kesejahteraan Dan Kebahagiaan. Tuhan Hamba Memotong Hewan Ini Semoga Rohnya Menjadi Suci"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewGaris14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="___________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:paddingTop="16dp"
+            android:text="Doa Mengunjungi Orang Sakit"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:padding="16dp"
+            android:text="Om Sarwa Wighna Sarwa Klesa Sarwa Lara Roga Winasaya Namah
+            \nArti :Ya Tuhan Semoga Segala Halangan, Segala Penyakit, Segala Penderitaan Dan Gangguan Engkau Lenyapkan Semuanya"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewGaris15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="___________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:paddingTop="16dp"
+            android:text="Doa Mendengar Atau Melayat Orang Mati "
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="20"
+            android:padding="16dp"
+            android:text="Om Swargantu, Moksantu, Sunyantu, Murcantu, Om Ksama Sampurna Ya Namah Swaha
+            \nArti :Ya Tuhan Yang Maha Kuasa, Semogalah Arwah Yang Meninggal Mendapat Sorga, Menunggal Denganmu, Mencapai Keheningan Tanpa Derita. Ya Tuhan Ampunilah Segala Dosanya, Semoga Ia Mencapai Kesempurnaan Atas Kekuasaan Dan Pengetahuan Serta Pengampunanmu"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewGaris16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="___________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:paddingTop="16dp"
+            android:text="Doa Para Pedagang "
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:padding="16dp"
+            android:text="Om a Wiswani Amrta Saubhagani
+            \nArti :Ya Tuhan, Semoga Engkau Menganugrahkan Segala Keberuntungan Yang Memberikan Kebahagiaan Kepada Kami"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewGaris17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="___________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:paddingTop="16dp"
+            android:text="Doa Saat Sakit / Mohon Perlindungan Menghilangkan Kegelisahan "
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="20"
+            android:padding="16dp"
+            android:text="Om Trayam Bhakam Ya Jamahe Sughamdin Pusthi Wardhanam Uhrwaru Kham Iwa Bhandhanat Mrityor Mukhsya Mamritat
+            \nArti :Oh Sanghyang Widhi Wasa, Yang Maha Mulia. Kami Memujamu, Hindarkanlah Kami Dari Keraguan Ini. Bebaskanlah Kami Dari Belenggu Dosa, Bagaikan Mentimun Lepas Dari Tangkainya, Sehingga Kami Dapat Bersatu Denganmu"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewGaris18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="___________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:paddingTop="16dp"
+            android:text="Doa Menghilangkan Rasa Takut "
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:padding="16dp"
+            android:text="Om Om Jaya Jiwat Sarira Raksan DadasimeOm Mjum Sah Waosat Mrityun Jaya Namah Swaha
+            \nArti :Oh Sanghyang Widhi Wasa Yang Maha Jaya Yang Mengatasi Segala Kematian Kami Memujamu. Lindungilah Kami Dari Marabahaya"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewGaris19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="___________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:paddingTop="16dp"
+            android:text="Doa Menghindari Malapetaka"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="20"
+            android:padding="16dp"
+            android:text="Om Sarwa Papa Winasini Sarwa Roga Wimocane Sarwa Klesa Winasanam Sarwa Bhogam Awapnuyat Om Srikare Sapa Hut Kare Roga Dosa Winasanam Siwa Lokam Mahayaste Mantra Manah Papa Kelah
+            \nArti :Oh Sanghyang Widhi Wasa, Terimalah Segala Persembahan Kami. Engkau Musnahkan Segala Malapetaka. Engkau Bebaskan Segala Derita, Dan Engkau Jauhkan Segala Penyakit Oh Sanghyang Widhi Wasa, Engkau Yang Dipuja Sebagai Penguasa Alam Semesta, Engkau Menjiwai Inti Segala Mantra, Bebaskanlah Segala Dosa Dan Derita, Serta Tuntunlah Kami Ke Jalan Yang Benar"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewGaris20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="___________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:paddingTop="16dp"
+            android:text="Doa Resepsi Pengantin"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:padding="16dp"
+            android:text="Om Iha Iwa Stam Ma Wi Yaus Tam Wiswam Ayur Wyasnutam Kridantau Putrair Naptrbhih Modamanau Swe Grhe
+            \nArti :Ya Tuhan, Anugerahkanlah Kepada Pasangan Pengantin Ini Kebahagiaan, Keduanya Tiada Terpisahkan Dan Panjang Umur. Semoga Penganten Ini Dianugerahkan Putera Dan Cucu Yang Memberikan Penghiburan, Tinggal Di Rumah Yang Penuh Kegembiraan"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewGaris21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="___________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul222"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:paddingTop="16dp"
+            android:text="Doa Mohon Ketenangan Rumah Tangga"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa222"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="20"
+            android:padding="16dp"
+            android:text="Om Wisowiso Wo Atithim Wajayantah Purupriyam Agnim Wo Duryam Wacah Stuse Susasya Manmabhih
+            \nArti :Ya Tuhan, Engkau Adalah Tamu Yang Datang Pada Setiap Rumah. Engkau Amat Mencintai Umatmu. Engkau Adalah Sahabat Yang Maha Pemurah. Perkenankanlah Hamba Memujamu Dengan Penuh Kekuatan, Dalam Ucapan Maupun Tenaga Dan Dalam Lagu Pujian"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewGaris222"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="___________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:paddingTop="16dp"
+            android:text="Doa Kelahiran Bayi"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="20"
+            android:padding="16dp"
+            android:text="Om Brhatsumnah Prasawita Om Brhatsumnah Prasawita Niwesano Jagatah Sthaturub Hayasya Yo Wasi Sano Dewah Sawita Sarma Yaccha Twasme Ksayaya Triwarutham Amhasah
+            \nArti :Ya Tuhan Yang Maha Pengasih, Yang Memberi Kehidupan Pada Alam Dan Menegakkannya. Ia Mengatur Yang Bergerak Maupun Yang Tidak Bergerak Semoga Ia Memberi Rahmatnya Kepada Kami Untuk Ketentraman Hidup Dengan Kemampuan Untuk Menghindari Kekuatan Yang Jahat"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewGaris23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="___________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:paddingTop="16dp"
+            android:text="Doa Ulang Tahun Kelahiran"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:padding="16dp"
+            android:text="Om Dirgayurastu Tad Astu Astu Swaha
+            \nArti :Oh Sanghyang Widhi Wasa Semoga Bahagia Dan Panjang Umur Atas Karuniamu"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewGaris24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="___________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:paddingTop="16dp"
+            android:text="Doa Menolak Bahaya "
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="20"
+            android:padding="16dp"
+            android:text="Om Om Asta Maha Bayaya Om Sarwa Dewa, Sarwa Sanjata, Sarwa Warna Ya Namah, Om Atma Raksaya, Sarwa Satru, Winasaya Namah Swaha
+            \nArti :Oh Sanghyang Widhi Wasa Penakluk Segala Macam Bahaya Dari Segala Penjuru, Hamba Memujamu Dalam Wujud Sinar Suci Dengan Beraneka Warna Dan Senjata Yang Ampuh. Oh Sanghyang Widhi Wasa Lindungilah Jiwa Kami. Semoga Semua Musuh Binasa"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewGaris25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="___________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:paddingTop="16dp"
+            android:text="Doa Sebelum Melakukan Hubungan Suami Istri (Bersenggama) "
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:padding="16dp"
+            android:text="Om Krung Kama Supurna Dewata Manggala Ya Namah Swaha
+            \nArti :Ya Tuhan, Dewa Asmara Yang Amat Suci Yang Terutama"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewGaris26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="___________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:paddingTop="16dp"
+            android:text="Doa Pembuka Rapat/Pertemuan"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="30"
+            android:padding="16dp"
+            android:text="Om Sam Gacchadwam Samwadadwam Sam Wo Manamsi Janatam Dewa Bhagam Yatha Purwe Samjanana UpasateOm Samani Wa Akutih Samana Hrdayani Wah Samanam Astu Wo Mano Yatha Wah SusahasatiOm Ano Bhadrah Krattawoyantu Wistawah
+            \nArti :Ya Tuhan, Hamba Berkumpul Di Tempat Ini Hendak Bicara Satu Dengan Yang Lain Untuk Menyatukan Pikiran Sebagaimana Halnya Para Dewa Selalu Bersatu. Ya Tuhan, Tuntunlah Kami Agar Sama Dalam Tujuan, Sama Dalam Hati, Bersatu Dalam Pikiran Hingga Dapat Hidup bersama Dalam Sejahtera Dan Bahagia. Ya Tuhan, Semoga Pikiran Yang Baik Datang Dari Segala Penjuru"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewGaris27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="___________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:paddingTop="16dp"
+            android:text="Doa Menutup Rapat/Pertemuan "
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="30"
+            android:padding="16dp"
+            android:text="Om Mantrahinam Kriyahinam Bhaktihinam Maheswara, Yad Pujitan Mahadewa Paripurnam Tad Astu Me Ayuwrdhir Yasowridhih Wridhih Pradnyasukhasriyam Dharma Santana Wrdhisca Santu Te Sapta Wrdhayah Om Dirghayur Nirwighna Sukha Wridhi Nugrahakam
+            \nArti :Oh Iswara Yang Agung, Mantra Kami Tiada Sempurna, Perbuatan Kami Tiada Sempurna Pula. Karena Itu Kami Memujamu, Oh Iswara Yang Agung, Semoga Kami Dikaruniai Kesempurnaan (Di Dalam Melakukan Tugas) Oh Sanghyang Widhi Wasa, Berkahilah Kami Dengan Tujuh Perpanjangan : Hidup Lama, Nama Harum, Ilmu Pengetahuan, Kebahagiaan, Kesejahteraan, Kepercayaan, Dan Putera-Putera Utama (Sebagai Generasi Perjuangan Bangsa) Oh Sanghyang Widhi Wasa, Semoga Kami Sukses Tanpa Halangan Dan Memperoleh Kebahagiaan Atas Anugerahmu."
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewGaris28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="___________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewJudul29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:paddingTop="16dp"
+            android:text="Doa pramasanti "
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/textViewDoa29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:padding="16dp"
+            android:text="Om Santih Santih Santih Om
+            \nArti :Semoga damai, damai di hati, damai di dunia , damai selama-lamanya."
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewGaris29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="___________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
     </LinearLayout>
 
-</android.support.v7.widget.CardView>
+</ScrollView>
