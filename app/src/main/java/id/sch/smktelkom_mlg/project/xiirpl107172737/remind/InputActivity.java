@@ -15,7 +15,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public abstract class InputActivity extends AppCompatActivity implements View.OnClickListener {
+public class InputActivity extends AppCompatActivity implements View.OnClickListener {
     private EditText editTextName;
     private EditText editTextDate;
     private EditText editTextTime;
