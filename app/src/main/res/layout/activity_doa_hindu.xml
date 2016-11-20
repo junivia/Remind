@@ -40,8 +40,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -70,8 +71,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -100,8 +102,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -130,8 +133,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -160,8 +164,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -190,8 +195,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -220,8 +226,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -250,8 +257,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -280,8 +288,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -310,8 +319,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -340,8 +350,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -370,8 +381,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -400,8 +412,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -430,8 +443,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -460,8 +474,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -490,8 +505,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -520,8 +536,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -550,8 +567,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -580,8 +598,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -610,8 +629,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -640,8 +660,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -670,8 +691,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -700,8 +722,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -730,8 +753,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -760,8 +784,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -790,8 +815,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -820,8 +846,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -850,8 +877,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -880,8 +908,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -910,8 +939,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
     </LinearLayout>
 

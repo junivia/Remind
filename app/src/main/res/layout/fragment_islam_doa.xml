@@ -38,15 +38,17 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|right"
             android:fontFamily="sans-serif"
-            android:text="Segala puji bagi Allah yang telah menghidupkan kami sesudah kami mati (membangunkan dari tidur) dan hanya kepada-Nya kami dikembalikan." />
+            android:text="Segala puji bagi Allah yang telah menghidupkan kami sesudah kami mati (membangunkan dari tidur) dan hanya kepada-Nya kami dikembalikan."
+            android:textAlignment="center" />
 
         <TextView
             android:id="@+id/textViewGaris"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -72,15 +74,17 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|right"
             android:fontFamily="sans-serif"
-            android:text="Dengan nama-Mu ya Allah aku hidup dan aku mati." />
+            android:text="Dengan nama-Mu ya Allah aku hidup dan aku mati."
+            android:textAlignment="center" />
 
         <TextView
             android:id="@+id/textViewGaris2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -106,15 +110,17 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|right"
             android:fontFamily="sans-serif"
-            android:text="Ya Allah, aku berlindung dari godaan syetan laki-laki dan syetan perempuan." />
+            android:text="Ya Allah, aku berlindung dari godaan syetan laki-laki dan syetan perempuan."
+            android:textAlignment="center" />
 
         <TextView
             android:id="@+id/textViewGaris3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -140,15 +146,17 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|right"
             android:fontFamily="sans-serif"
-            android:text="Dengan mengharap ampunanMu, segala puji milik Allah yang telah menghilangkan kotoran dari badanku dan yang telah menyejahterakan." />
+            android:text="Dengan mengharap ampunanMu, segala puji milik Allah yang telah menghilangkan kotoran dari badanku dan yang telah menyejahterakan."
+            android:textAlignment="center" />
 
         <TextView
             android:id="@+id/textViewGaris4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -174,14 +182,16 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|right"
             android:fontFamily="sans-serif"
-            android:text="Ya Allah ampunilah dosa kesalahanku dan berilah keluasaan di rumahku serta berkahilan pada rizqiku." />
+            android:text="Ya Allah ampunilah dosa kesalahanku dan berilah keluasaan di rumahku serta berkahilan pada rizqiku."
+            android:textAlignment="center" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -207,15 +217,17 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|right"
             android:fontFamily="sans-serif"
-            android:text="Segala puji bagi Allah yang memberi aku pakaian ini dan memberi rizqi dengan tiada upaya dan kekuatan dariku." />
+            android:text="Segala puji bagi Allah yang memberi aku pakaian ini dan memberi rizqi dengan tiada upaya dan kekuatan dariku."
+            android:textAlignment="center" />
 
         <TextView
             android:id="@+id/textViewGaris5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -241,14 +253,16 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|right"
             android:fontFamily="sans-serif"
-            android:text="Segala puji bagi Allah, baguskanlah budi pekertiku sebagaimana Engkau telah membaguskan rupa wajahku." />
+            android:text="Segala puji bagi Allah, baguskanlah budi pekertiku sebagaimana Engkau telah membaguskan rupa wajahku."
+            android:textAlignment="center" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -274,14 +288,16 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|right"
             android:fontFamily="sans-serif"
-            android:text="Ya Allah, berkahilah kami dalam rezeki yang telah Engkau berikan kepada kami dan peliharalah kami dari siksa api neraka." />
+            android:text="Ya Allah, berkahilah kami dalam rezeki yang telah Engkau berikan kepada kami dan peliharalah kami dari siksa api neraka."
+            android:textAlignment="center" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -307,14 +323,16 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|right"
             android:fontFamily="sans-serif"
-            android:text="Segala puji bagi Allah yang telah memberi makan kami dan minuman kami, serta menjadikan kami sebagai orang-orang islam." />
+            android:text="Segala puji bagi Allah yang telah memberi makan kami dan minuman kami, serta menjadikan kami sebagai orang-orang islam."
+            android:textAlignment="center" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -340,14 +358,16 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|right"
             android:fontFamily="sans-serif"
-            android:text="Dengan menyebut nama Allah aku bertawakal kepada Allah, tiada daya kekuatan melainkan dengan Allah." />
+            android:text="Dengan menyebut nama Allah aku bertawakal kepada Allah, tiada daya kekuatan melainkan dengan Allah."
+            android:textAlignment="center" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -373,14 +393,16 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|right"
             android:fontFamily="sans-serif"
-            android:text="Ya Allah, sesungguhnya aku mohon kepada-Mu baiknya tempat masuk dan baiknya tempat keluar dengan menyebut nama Allah kami masuk, dan dengan menyebut nama Allah kami keluar dan kepada Allah Tuhan kami, kami bertawakkal." />
+            android:text="Ya Allah, sesungguhnya aku mohon kepada-Mu baiknya tempat masuk dan baiknya tempat keluar dengan menyebut nama Allah kami masuk, dan dengan menyebut nama Allah kami keluar dan kepada Allah Tuhan kami, kami bertawakkal."
+            android:textAlignment="center" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -406,14 +428,16 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|right"
             android:fontFamily="sans-serif"
-            android:text="Ya Allah kami memohon kepadaMu keselamatan dalam agama, dan kesejahteraan/kesegaran pada tubuh dan penambahan ilmu, dan keberkahan rizqi, serta taubat sebelum mati dan rahmat di waktu mati.." />
+            android:text="Ya Allah kami memohon kepadaMu keselamatan dalam agama, dan kesejahteraan/kesegaran pada tubuh dan penambahan ilmu, dan keberkahan rizqi, serta taubat sebelum mati dan rahmat di waktu mati.."
+            android:textAlignment="center" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -439,14 +463,16 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|right"
             android:fontFamily="sans-serif"
-            android:text="Segala puji bagi Allah yang menjadikan air ini suci dan menyucikan. Ya Allah, aku mohon berilndung kepada Mu dari godaan syaiton dan aku mohon perlindungan-Mu dari godaan syaiton yang akan datang." />
+            android:text="Segala puji bagi Allah yang menjadikan air ini suci dan menyucikan. Ya Allah, aku mohon berilndung kepada Mu dari godaan syaiton dan aku mohon perlindungan-Mu dari godaan syaiton yang akan datang."
+            android:textAlignment="center" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -472,14 +498,16 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|right"
             android:fontFamily="sans-serif"
-            android:text="Aku mengaku bahwa tidak ada Tuhan selain Allah Yang Maha Esa, tidak ada sekutu bagi-Nya, dan aku mengaku bahwa Nabi Muhammad itu adalah hamba dan Utusan Allah. Ya Allah, jadikanlah aku dari golongan orang-orang yang bertaubat dan jadikanlah aku dari golongan orang-orang yang bersuci (sholeh)." />
+            android:text="Aku mengaku bahwa tidak ada Tuhan selain Allah Yang Maha Esa, tidak ada sekutu bagi-Nya, dan aku mengaku bahwa Nabi Muhammad itu adalah hamba dan Utusan Allah. Ya Allah, jadikanlah aku dari golongan orang-orang yang bertaubat dan jadikanlah aku dari golongan orang-orang yang bersuci (sholeh)."
+            android:textAlignment="center" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -505,14 +533,16 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|right"
             android:fontFamily="sans-serif"
-            android:text="Ya Allah, tambahkanlah aku ilmu dan berikanlah aku rizqi akan kepahaman." />
+            android:text="Ya Allah, tambahkanlah aku ilmu dan berikanlah aku rizqi akan kepahaman."
+            android:textAlignment="center" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -538,14 +568,16 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|right"
             android:fontFamily="sans-serif"
-            android:text="Ya Allah! sesungguhnya aku menitipkan kepada Engkau ilmu-ilmu yang telah Engkau ajarkan kepadaku, dan kembalikanlah kepadaku sewaktu aku butuh kembali dan janganlah Engkau lupakan aku kepada ilmu itu wahai Tuhan seru sekalian alam." />
+            android:text="Ya Allah! sesungguhnya aku menitipkan kepada Engkau ilmu-ilmu yang telah Engkau ajarkan kepadaku, dan kembalikanlah kepadaku sewaktu aku butuh kembali dan janganlah Engkau lupakan aku kepada ilmu itu wahai Tuhan seru sekalian alam."
+            android:textAlignment="center" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -571,14 +603,16 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|right"
             android:fontFamily="sans-serif"
-            android:text="Aku memohon kepada Allah yanag Maha Agung Tuhan Arsy yang agung semoga memberi kesejahteraan kepada engkau dan menyembuhkan engkau (orang yang sakit)." />
+            android:text="Aku memohon kepada Allah yanag Maha Agung Tuhan Arsy yang agung semoga memberi kesejahteraan kepada engkau dan menyembuhkan engkau (orang yang sakit)."
+            android:textAlignment="center" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -604,14 +638,16 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|right"
             android:fontFamily="sans-serif"
-            android:text="Segala Puji Bagi Allah." />
+            android:text="Segala Puji Bagi Allah."
+            android:textAlignment="center" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -637,14 +673,16 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|right"
             android:fontFamily="sans-serif"
-            android:text="Semoga Allah memberi rahmat kepadamu." />
+            android:text="Semoga Allah memberi rahmat kepadamu."
+            android:textAlignment="center" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -670,14 +708,16 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|right"
             android:fontFamily="sans-serif"
-            android:text="Ya Allah, jadikanlah dihatiku cahaya, pada lisanku cahaya dipandanganku cahaya, dalam pendengaranku cahaya, dari kananku cahaya, dari kiriku cahaya, dari atasku cahaya, dari bawahku cahaya, dari depanku cahaya, belakangku cahaya, dan jadikanlah untukku cahaya." />
+            android:text="Ya Allah, jadikanlah dihatiku cahaya, pada lisanku cahaya dipandanganku cahaya, dalam pendengaranku cahaya, dari kananku cahaya, dari kiriku cahaya, dari atasku cahaya, dari bawahku cahaya, dari depanku cahaya, belakangku cahaya, dan jadikanlah untukku cahaya."
+            android:textAlignment="center" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -703,14 +743,16 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|right"
             android:fontFamily="sans-serif"
-            android:text="Ya Allah, bukakanlah bagiku pintu-pintu rahmat-Mu." />
+            android:text="Ya Allah, bukakanlah bagiku pintu-pintu rahmat-Mu."
+            android:textAlignment="center" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -736,14 +778,16 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|right"
             android:fontFamily="sans-serif"
-            android:text="Ya Allah, sesungguhnya aku memohon keutamaan dari-Mu." />
+            android:text="Ya Allah, sesungguhnya aku memohon keutamaan dari-Mu."
+            android:textAlignment="center" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -769,14 +813,16 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|right"
             android:fontFamily="sans-serif"
-            android:text="Dengan menyebut nama-Mu, wahai Tuhanku, aku baringkan lambungku; dan dengan menyebut nama-Mu, aku angkat lambungku. Jika Engkau ambil nyawaku, kasihanilah dia dan jika Engkau lepaskan, peliharalah dia dengan cara yang Engkau lakukan kepada hamba-hamba-Mu yang shalih." />
+            android:text="Dengan menyebut nama-Mu, wahai Tuhanku, aku baringkan lambungku; dan dengan menyebut nama-Mu, aku angkat lambungku. Jika Engkau ambil nyawaku, kasihanilah dia dan jika Engkau lepaskan, peliharalah dia dengan cara yang Engkau lakukan kepada hamba-hamba-Mu yang shalih."
+            android:textAlignment="center" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -786,6 +832,7 @@
             android:maxLines="10"
             android:paddingTop="16dp"
             android:text="Doa Memohon Dipelihara dari Siksa Neraka"
+            android:textAlignment="center"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -802,14 +849,16 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|right"
             android:fontFamily="sans-serif"
-            android:text="Ya Allah, peliharalah diriku dari siksa-Mu pada saat Engkau bangkitkan hamba-hamba-Mu." />
+            android:text="Ya Allah, peliharalah diriku dari siksa-Mu pada saat Engkau bangkitkan hamba-hamba-Mu."
+            android:textAlignment="center" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -819,6 +868,7 @@
             android:maxLines="1"
             android:paddingTop="16dp"
             android:text="Doa Memohon Dimatikan dan Dihidupkan sebagai Muslim"
+            android:textAlignment="center"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -835,14 +885,17 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|right"
             android:fontFamily="sans-serif"
-            android:text="Dengan menyebut nama-Mu, wahai Tuhanku, aku mati dan aku hidup." />
+            android:padding="16dp"
+            android:text="Dengan menyebut nama-Mu, wahai Tuhanku, aku mati dan aku hidup."
+            android:textAlignment="center" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:gravity="center"
             android:maxLines="1"
-            android:text="___________________________________"
+            android:text="_______________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
     </LinearLayout>
 
