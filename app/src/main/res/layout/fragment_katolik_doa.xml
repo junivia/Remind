@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1000px"
+        android:background="#e0e0e0"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Tanda Salib"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:fontFamily="sans-serif"
+            android:padding="16dp"
+            android:text="Dalam (Demi) nama Bapa dan Putera dan Roh Kudus, Amin..." />
+
+        <TextView
+            android:id="@+id/textViewGaris"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="_______________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Bapa Kami"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:fontFamily="sans-serif"
+            android:padding="16dp"
+            android:text="Bapa kami yang ada di dalam surga,
+Dimuliakanlah nama-Mu,
+Datanglah kerajaan-Mu,
+Jadilah kehendak-Mu,
+Di atas bumi seperti di dalam surga,
+Berilah kami rejeki pada hari ini,
+Dan ampunilah kesalahan kami,
+Seperti kami pun mengampuni yang bersalah kepada kami.
+Dan janganlah memasukkan kami ke dalam pencobaan,
+Tetap bebaskanlah kami dari yang jahat.
+
+Amin." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="_______________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Salam Maria"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:fontFamily="sans-serif"
+            android:padding="16dp"
+            android:text="Salam Maria, penuh rahmat, Tuhan sertamu, terpujilah engkau diantara wanita dan terpujilah buah tubuhmu, Yesus. Santa Maria, bunda Allah, doakanlah kami yang berdosa ini sekarang dan waktu kami mati.
+
+Amin." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="_______________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Kemuliaan"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:fontFamily="sans-serif"
+            android:padding="16dp"
+            android:text="Kemuliaan kepada Bapa dan Putra dan Roh Kudus, seperti pada permulaan serkarang selalu dan sepanjang segala abad.
+
+Amin." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="_______________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Doa Harapan"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:fontFamily="sans-serif"
+            android:padding="16dp"
+            android:text="Allah, Bapa di surga, kasih setia-Mu kekal abadi.
+Engkaulah tumpuan hidup dan harapanku.
+Tanamkanlah dalam hatiku pengharapan yang teguh akan kasih dan kebaikan-Mu, pengharapan yang menjiwai seluruh hidup Putra-Mu Yesus Kristus.
+Berilah aku pengharapan yang kuat karena yakin bahwa Engkau selalu besertaku.
+Semoga aku selalu menyandarkan diri kepada-Mu dalam suka dan duka. Aku mohon pengharapan yang teguh supaya aku tidak mudah putus asa dalam penderitaan dan kekecewaan.
+Bapa, semoga pengharapan yang kuat selalu menjiwai seluruh hidupku.
+Dalam pengharapan itu aku akan membangun hidup dan masa depanku.
+Dalam harapan itu pula aku percaya akan memperoleh hidup abadi bersama Engkau.
+
+Ya Allah, teguhkanlah pengharapanku.
+Amin." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="_______________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Doa Iman"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:fontFamily="sans-serif"
+            android:padding="16dp"
+            android:text="Allah yang Esa, Engkau telah menciptakan semesta alam,
+Aku percaya bahwa Engkau adalah Bapa yang pengasih dan penyayang,
+Engkau sungguh mengasihiku,
+Engkau telah mengutus Yesus, Putra-Mu yang tunggal, yang telah menjadi manusia, wafat dan bangkit untuk keselamatanku. Engkau telah mengutus pula Roh Kudus pemberi hidup. Dia berasal dari Bapa dan Putra. Dia telah dicurahkan ke atasku dan berdiam di dalam diriku sehingga, aku menjadi bati Allah. Dialah penolong sejati, yang membimbing aku kepada seluruh kebenaran.
+
+Ya Bapa, berilah aku iman yang hidup dan jadikanlah aku berani menjadi saksi-Mu di hadapan sesama manusia sepanjang hayatku. Ya Allah,tambahkanlah selalu imanku.
+
+Amin." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="_______________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Doa Masa Natal"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:fontFamily="sans-serif"
+            android:padding="16dp"
+            android:text="Allah Bapa di surga, kami memuji Engkau dan bersyukur kepada-Mu karena sabda-Mu yang menjadi manusia dengan lahir ditengah-tengah kami. Ia menjadi manusia lemah agar kami yang rapuh dan fana ini diurapi oleh daya ilahi yang abadi.
+
+Dengan kelahiran-Nya di dunia ini, ENgkau yang tak dapat dilihat kini kelihatan sebagai manusia seperti kami dan cahaya keselamatn-Mu bersinar ditengah kami, mengusir kegelapan yang menguasai kami.
+
+Curankahlah rahmat-Mu, agar kami yang kini merayakan misteri berani menjadi pembawa damai bagi sesama, dan dengan demikian kami pun menjadi sarana ikarnasi-Mu ditengah-tengah mereka. Dengan pengantaran Kristus, Tuhan kami, kini dan sepenjang masa.
+
+Amin." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="_______________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Doa Masa Paskah"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:fontFamily="sans-serif"
+            android:padding="16dp"
+            android:text="Allah Bapa yang Maha Baik, kami bersyukur kepada-Mu karena Yesus Kristus telah bangkit dari Kubur. Dengan kebangkitan-Nya Kau tumbuhkan semangat dan harapan baru dalam hati kami, umat baru Kau ciptakan, dan pintu surga Kau buka bagi kami. Melalui kebangkitan-Nya kuasa dosa Kau hancurkan, kami Kau damaikan dengan dikau dan sesama dan alam semesta yang porak poranda Kau pugar kambali.
+
+Dengan kenaikan-Nya la merintis jalan ke surga bagi kami dan menyediakan tempat bagi kami. Semoga karena rahmat kebangkitan-Nya kami menjadi manusia baru yang penuh harapan, yang gigih menjadi manusia baru, yang penuh harapan, yang gigih melawan doa dan kejahatan, yang setia mengikuti kehendak-Mu dan tak gentar akan derita salib. Demi Yesus Kristus, pengantara Kami, kini dan sepenjang masa.
+
+Amin." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="_______________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text=""
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:fontFamily="sans-serif"
+            android:padding="16dp"
+            android:text="" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="_______________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Doa Masa PraPaskah"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:fontFamily="sans-serif"
+            android:padding="16dp"
+            android:text="Allah Bapa yang Maha Baik, kami bersyukur kepada-Mu atas Masa PraPaskah yang Kau anugerahkan kepada kami. Lewat Masa PraPaskah ini ENgkau menginginkan kami untuk menyadari segala kebaikan-Mu. Selama Masa Prapaskah ini Engkau melimpahkan rahmat untuk menyegarkan iman kami.
+
+Engkau mengajak kami untuk bertaubat, menyesali kekurangan dan dosa-dosa kami. Engkau mendorong kami melepaskan diri dari belenggu nafsu yang menyesatkan. ENgkau mengajar kami untuk hidup sederhana, mensyukuri segala anugerah-Mu dan membantu orang-orang yang menderita. Karena selama Masa PraPaskah ini Engkau membimngbing para calon baptis yang akan bersatu dengan kami melalui Sakramen Baptis. Dan sambil mendampingi mereka, kami pun Kau ajak menyegarkan rahmat Baptisan yang pernah kami terima dari-Mu.
+
+Semoga karena rahmat-Mu yang Kau limpahkan selama Masa PraPaskah ini kami semakin suci, semakin bersatu sebagai umat kesayangan-Mu dan berani meneladan Yesus Putra-Mu, yang rela menderita sengsara, wafat dan bangkit untuk menyelamatkan kami. Sebab Dialah Tuhan, pengantara kami, kami dan sepanjang masa.
+
+Amin." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="_______________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Novena Kanak-kanan Yesus"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:fontFamily="sans-serif"
+            android:padding="16dp"
+            android:text="(Pada waktu mendesak)
+(didoakan selama sembilan hari berturut-turut)
+
+Yesus, Engkau bersabda, 'Mintalah maka kamu akan menerimanya, carilah maka kamu akan menemukan, ketuklah maka pintu akan dibukakan bagimu'. Dengan perantara Bunda Maria, BundaMu yang tersuci, aku mengetuk, aku mencari, aku memohon kabulkanlah doaku.
+
+        (Sebutkanlah permohonan Anda ...)
+
+        Yesus, Engkau bersabda, 'Semua yang kau mohon atas nama-Ku Bapa akan mengabulkan-nya.' Dengan perantara Bunda Maria, BundaMu yang tersuci, dengan rendah hati, dengan sangat aku memohon kepada Bapa-Mu demi nama-Mu, kabulkanlah doaku.
+
+        (Sebutkanlah permohonan Anda ...)
+
+        Yesus, Engkau bersabda, 'Surga dan bumi akan lenyap, tetapi sabda-Ku tidak akan lenyap.' Dengan perantara Bunda Maria, Bunda-Mu yang suci, aku yakin bahwa doaku akan dikablukan.
+
+        (Sebutkanlah permohonan Anda ...)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="_______________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Novena Medali Wasiat"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:fontFamily="sans-serif"
+            android:padding="16dp"
+            android:text="Ya Santa Perawan Maria yang dikandung tanpa dosa, Bunda Tuhan kami Yesus dan Bunda kami, dengan mengandalkan perantaraanmu yang berdaya kuasa dan tak pernah sia-sia, sebagimana begitu sering terbukti melalui Medali Wasiat, kami anak-anakmu yang terkasih dengan penuh kepercayaan memohon kepadamu untuk memperolehkan bagi kami rahmat dan pertolongan yang kami mohonkan dalam novena ini, asal bermanfaat bagi jiwa-jiwa kami yang fana, dan jiwa-jiwa yang kami doakan.
+
+(Sebutkan permohonan)
+
+Engkau tahu ya Maria, betapa sering jiwa kami menjadi sanctuarium Putramu yang benci akan dosa. Sebab itu, sudi perolehkanlah bagi kami kebencian mendalam akan dosa dan kerinduan akan kesucian hati yang akan mengikatkan kami kepada Tuhan semata sehingga setiap pikiran, perkataan dan perbuatan kami terarah demi kemuliaan-Nya yang terlebih lagi.
+
+Perolehkanlah juga bagi kami semangat doa dan penyengkalan diri agar dengan penitesi kami dapat memulihkan kembali apa yang telah hilang akibat dosa dan pada akhirnya sampai ke tempat tinggal abadi di mana engkau adalah Ratu para malaikat dan manusia.
+
+Amin.
+
+'O Maria, yang dikandung tanpa dosa, doakanlah kami yang berlindung padamu.' 3x" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="_______________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Syukur Atas Penagampunan"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:fontFamily="sans-serif"
+            android:padding="16dp"
+            android:text="Allah yang Maha Rahim, ENgkau tidak menghendaki kematian orang berdosa. Sebaliknya, Engkau menghendaki supaya kami bertobat dan hidup. Maka, Engkau mengundang orang berdosa supaya bertobat, dan kepada kami yang bertobat ENgkau melimpahkan pengampunan. Kesalahan kami Engkau hapuskan dan dosa kami tidak Kau ingat lagi.
+
+(Amin)
+
+Terima kasih ya Allah, atas pengampunan yang Kau berikan kepada kami. Semoga sukacita di surga karena satu orang berdosa bertobat juga menjadi sukacita kami. Semoga sukacita pengampunan ini, mendorong kami selalu hidup rukun dan damai dengan seluruh umat-Mu.
+Ya Allah, perkenankanlah kini kami pergi dalam damai, dan selalu ingat akan sabda Putra-Mu yang menghendaki kami tidak berbuat dosa lagi.
+(Amin)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="_______________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Doa Kasih"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:fontFamily="sans-serif"
+            android:padding="16dp"
+            android:text="Allah, sumber segala kasih,
+Engkau mengutus Putra-Mu, Yesus Kristus, agar kasih-Mu menjadi nyata dalam hidupku dan semakin dikenal oleh banyak orang. Santo Yohanes telah mengajarku, 'Barang siapa tidak mengasihi, ia tidak mengenal Allah, sebab Allah adalah kasih.'
+
+        Semoga karena karunia kasih-Mu itu, aku mampu mengasihi Engkau lebihd ari segala sesuatu, dengan segenap hati, segenap jiwa, dengan segenap akal budi, dan dengan segenap kekuatan.
+
+        Karena mengasihi Engkau, semoga akupun mengasihi orang lain sebagaimana aku mengasihi diriku sendiri. Ya Allah, kobarkanlah selalu kasihku.
+
+        Amin." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="_______________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Doa Masa Adven"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:fontFamily="sans-serif"
+            android:padding="16dp"
+            android:text="Ya Allah, Bapa yang Maha Kudus kami bersyukur kehadirat-Mu, karena lewat masa penantian ini ENgkau menjajikan Juruselamat yakni Yesus Kristus Putra-Mu. Kedatangan-Nya di nubuatkan oleh para nabi dan dinantikan oleh Perawan Maria dengan cinta mesra. Dialah Adam baru yang memulihkan persahabatan kami dengan Dikau. Ia penolong yang lemah dan menyelamatkan yang berdosa.
+
+Ia membawa damai sejati bagi kami dan membuat semakin banyak orang mengenal Engkau dan berani melaksanakan kehendak-Mu. Ia datang sebagai manusia biasa, untuk melaksanakan rencana-Mu dan membukakan jalan keselamatan bagi kami. Pada akhir zaman ia akan datang lagi dengan semarak dan mulia untuk menyatakan kebahagiaan yang kami nantikan.
+
+Kami mohon kelimpahan rahmat-Mu, agar selama hidup di dunia ini kami selalu siap siaga dan penuh harap menantikan kedatangan-Nya yang mulia, agar pada saat Ia datang nanti, kami kau perkenankan ikut berbahagia bersama Dia dan seluruh umat kesayangan-Mu. Sebab Dialah Tuhan, pengantara kami, kini dan sepanjang masa.
+
+Amin." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="_______________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Doa Pembukaan Pertemuan"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:fontFamily="sans-serif"
+            android:padding="16dp"
+            android:text="Ya Roh Kudus, kami berhimpun di hadapan-Mu. Kami sadar akan kedosaan kami, tetapi sadar pula bahwa kami berhimpun dalam nama-Mu.
+
+Datanglah ke tengah kami, tinggallah bersama kami dan terangilah hati kami. Berilah kami cahaya dan kekuatan untuk mengenal kehendak-Mu, untuk menjadikannya kehendak kami dan untuk mengamalkannya dalam hidup kami. Bimbinglah kami dengan kebijaksanaan-Mu, topanglah kami dengan kekuatan-Mu karena Engkaulah Allah, yang dimuliakan bersama Bapa dan Putra.
+
+Ya Roh Kudus, Engkau menghendaki keadilan. Bantulah kami menghargai hak orang lain, janganlah Kau izinkan kami disesatkan oleh ketidak tahuan, binasa karena ketakutan atau kesembronoan. Persatukanlah kami dengan diri-Mu dalam ikatan kasih dan buatlah kami setia pada yang benar. Karena kami berkumpul dalam nama-Mu, semoga kami memupuk keadilan dengan kasih, sehingga semua keputudan kami berkenan kepada-Mu dan layak Kau beri pahala yang dijanjikan kepada hamba yang baik dan setia.
+
+Amin. " />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="_______________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Doa Penutup Pertemuan"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:fontFamily="sans-serif"
+            android:padding="16dp"
+            android:text="Allah yang Maha Bijaksana, kami bersyukur atas selesainya pertemuan ini. ENgkau sendiri berkenan mendampingi kami dan menuntun pembicaraan kami.
+
+Kami mohon ampun kalau kami masing-masing kurang terbuka dan kurang menghargai bimbingan-Mu dan lebih memaksakan atau mengikuti jalan kami sendiri, juga kami mohon ampun atas kekurangan-kekurangan yang terjadi dalam rapat ini.
+
+Kami bersyukur atas hasil pertemuan yang kami yakini diilhami oleh Roh Kudus sendiri. Sudilah Engkau memberkati kami semua dalam mengamalkan hasil pertemuan ini. Demikian pula berkatilah semua saudara yang akan terlibat dalam pelaksanaan hasil pertemuan ini. Semoga hasil pertemuan ini sungguh membawa kesegaran dan pembaruan bagi seluruh umat-Mu, sehingga mereka semakin mantap menjadi umat-Mu, semakin terbuka untuk melayani sesama dan di atas semua itu, semakin takwa kepada-Mu. Demi Kristus, pengantara kami.
+
+Amin." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="_______________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Mohon Rahmat Persaudaraan"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:fontFamily="sans-serif"
+            android:padding="16dp"
+            android:text="Allah, Bapa kami yang Maha Pengasih dan Penyayang. Engkau telah menanamkan benih kasih dalam hati semua orang. Bahkan, ENgkau telah memberikan Roh-Mu menghendaki agar kami saling mengasihi sebagaimana kami mengasihi diri kami sendiri.
+
+Kami bersyukur kepada-Mu atas kasih-Mu. ENgkau telah mengangkat semua orang menjadi anak-Mu dan mengasihi mereka semua dengan kasih yang sama. Maka, semoga kami selalu saling mengasihi dan hidup rukun sebagai saudara. Lebih-lebih kami bersyukur karena Yesus selalu berdoa bagi semua orang agar mereka bersatu seperti Yesus sendiri bersatu dengan Dikau.
+
+Kami mohon curahkanlah rahmat persaudaraan kepada smeua orang agar mereka tekun mengusahakan kedamaian, kerukunan dan ketenteraman. Bebaskanlah umat-Mu dari hal-hal yang melemahkan semangat persaudaraan yang iri, dengki, fitnah dan sikap hanya mementingkan diri sendiri. Doa ini kami sampaikan kepada-Mu dengan pengantaraan Kristus dalam persekutuan dengan Roh Kudus, kini dan sepanjang masa.
+
+Amin." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="_______________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Mohon Sikap Rukun Beragama"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:fontFamily="sans-serif"
+            android:padding="16dp"
+            android:text="Ya Allah, pencipta alam semesta, hanya kepada-Mu lah segala ciptaan bersembah sujud dan berbakti. ENgkau mengenal setiap hati dan melalui berbagai cara Engkau mewahyukan diri kepada mereka.
+
+Kami bersyukur kepada-Mu atas begitu banyak orang yang dengan tulus mencari keselamatan. Kami bersyukur pula atas agama-agama yang dapat menuntun para penganutnya sampai kepada-Mu sebab, hanya Engkaulah satu-satunya sumber keselamatan. Engkaulah tujuan hidup manusia. Kami bersyukur atas begitu banyak tokoh agama yang menjadi panutan dalam berbakti kepada-Mu dan dalam mengasihi sesama manusia.
+
+Kami mohon, ya Bapa, semoga Engkau berkenan mengembangkan semnagat kerukunan antar umat beragama. Jauhkanlah dari kami sikap merendahkan penganut agama lain. Semoga semua orang sungguh menghayati dan mengamalkan ajaran imannya dan hidup dengan bertakwa. Bantulah para pemuka agama agar tekun meneladani dan mengajak umatnya untuk menghormati, mengasihi, menghargai penganut agama lain dan saling mengakui adanya perbedaan antar agama.
+
+Kami mendoakaan pula orang-orang yang tidak masuk dalam agama manapun tetapi, sungguh percaya akan Dikau, Allah yang Esa. Hanya Engkau sendirilah yang mengenal iman mereka. Ternagilah mereka ini dan bimbinglah agar sampai pada jalan keselamatan. Ini semua kami mohon kepada-Mu dengan pengantaraan Tuhan kami, Yesus Kristus.
+
+Amin." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="_______________________________________"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="16dp"
+            android:text="Doa dalam Keberhasilan / Kegembiraan"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:fontFamily="sans-serif"
+            android:padding="16dp"
+            android:text="Allah yang Maha Kuasa, firman yang keluar dari mulut-Mu tidak akan kembali kepada-Mu dengan sia-sia, tetapi akan melaksanakan apa yang Kau kehendaki dan akan berhasil. Yesus, Sang Sabda yang Kau utus ke tengah-tengah kami pun tidak kembali dengan sia-sia. Ia melaksanakan apa yang Kau kehendaki dan berhasil.
+
+Terima kasih ya Bapa, ENgkau berkenan menyertai dan memberkati usaha kami sehingga kami dapat berhasil. Kami gembira sekali boleh ambil bagian dalam keberhasilan Yesus, Sang Sabda. Semoga keberhasilan ini tidak membuat kami sombong dan lupa diri, tetapi semakin membesarkan iman kami akan penyertaan-Mu.
+
+Kami mohon berkat-Mu bagi semua yang telah memberi bantuan dan kerjasam sehingga, kami berhasil. Dan ingatlah juga akan mereka yang belum berhasil. Dan ingatlah uga akan mereka yang belum berhasil, kuatkanlah semangatnya, jangan sampai putus asa. Semoga suatu saat mereka pun berhasil.
+
+Allah, Bapa kami, seluruh keberhasilan dan suka-cita ini kami persembahkan kepada-Mu dengan pengantaran Kristus Tuhan kami.
+
+Amin." />
+    </LinearLayout>
+
+</ScrollView>

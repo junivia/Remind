@@ -6,4 +6,7 @@
     <string name="title_activity_kristen">KristenActivity</string>
     <string name="title_activity_katolik">KatolikActivity</string>
     <string name="title_activity_hindu">HinduActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
