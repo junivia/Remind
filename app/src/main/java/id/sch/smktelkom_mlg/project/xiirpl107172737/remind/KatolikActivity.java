@@ -131,9 +131,7 @@ public class KatolikActivity extends AppCompatActivity {
         @Override
         public Fragment getItem(int position) {
             switch (position) {
-                case 0:
-                    reminder_katolik tab1 = new reminder_katolik();
-                    return tab1;
+
                 case 1:
                     today_katolik tab2 = new today_katolik();
                     return tab2;

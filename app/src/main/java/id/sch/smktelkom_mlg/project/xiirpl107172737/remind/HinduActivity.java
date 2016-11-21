@@ -133,7 +133,7 @@ public class HinduActivity extends AppCompatActivity {
         public Fragment getItem(int position) {
             switch (position) {
                 case 0:
-                    reminder_hindu tab1 = new reminder_hindu();
+                    ReminderHindu tab1 = new ReminderHindu();
                     return tab1;
                 case 1:
                     today_hindu tab2 = new today_hindu();

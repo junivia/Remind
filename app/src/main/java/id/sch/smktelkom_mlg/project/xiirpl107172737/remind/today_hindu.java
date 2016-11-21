@@ -14,7 +14,7 @@ public class today_hindu extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.today_hindu, container, false);
+        View rootView = inflater.inflate(R.layout.activity_today_hindu, container, false);
         return rootView;
     }
 }
