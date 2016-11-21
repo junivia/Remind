@@ -47,8 +47,7 @@ public class KristenActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(mViewPager);
 
         tabLayout.getTabAt(0).setIcon(R.drawable.ic_alarm_black_24dp_white);
-        tabLayout.getTabAt(1).setIcon(R.drawable.church);
-        tabLayout.getTabAt(2).setIcon(R.drawable.prayer);
+        tabLayout.getTabAt(1).setIcon(R.drawable.prayer);
 
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
@@ -56,16 +55,10 @@ public class KristenActivity extends AppCompatActivity {
                 int position = tab.getPosition();
                 if (position == 0) {
                     tabLayout.getTabAt(0).setIcon(R.drawable.ic_alarm_black_24dp_white);
-                    tabLayout.getTabAt(1).setIcon(R.drawable.church);
-                    tabLayout.getTabAt(2).setIcon(R.drawable.prayer);
+                    tabLayout.getTabAt(1).setIcon(R.drawable.prayer);
                 } else if (position == 1) {
                     tabLayout.getTabAt(0).setIcon(R.drawable.ic_alarm_black_24dp);
-                    tabLayout.getTabAt(1).setIcon(R.drawable.church_white);
-                    tabLayout.getTabAt(2).setIcon(R.drawable.prayer);
-                } else if (position == 2) {
-                    tabLayout.getTabAt(0).setIcon(R.drawable.ic_alarm_black_24dp);
-                    tabLayout.getTabAt(1).setIcon(R.drawable.church);
-                    tabLayout.getTabAt(2).setIcon(R.drawable.prayer_white);
+                    tabLayout.getTabAt(1).setIcon(R.drawable.prayer_white);
                 }
             }
 
@@ -136,11 +129,8 @@ public class KristenActivity extends AppCompatActivity {
                     reminder_kristen tab1 = new reminder_kristen();
                     return tab1;
                 case 1:
-                    today_kristen tab2 = new today_kristen();
+                    doa_kristen tab2 = new doa_kristen();
                     return tab2;
-                case 2:
-                    doa_kristen tab3 = new doa_kristen();
-                    return tab3;
                 default:
                     return null;
             }
@@ -149,7 +139,7 @@ public class KristenActivity extends AppCompatActivity {
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 3;
+            return 2;
         }
 
         @Override
@@ -158,8 +148,6 @@ public class KristenActivity extends AppCompatActivity {
                 case 0:
                     return "";
                 case 1:
-                    return "";
-                case 2:
                     return "";
             }
             return null;
