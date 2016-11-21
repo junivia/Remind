@@ -16,10 +16,10 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class InputActivity extends AppCompatActivity {
-    private EditText editTextName;
-    private EditText editTextDate;
-    private EditText editTextTime;
-    private Button btnAdd;
+    private EditText etDeskripsi;
+    private EditText etTanggal;
+    private EditText etWaktu;
+    private Button btnSimpan;
 
     private SQLiteDatabase db;
 
@@ -30,13 +30,13 @@ public class InputActivity extends AppCompatActivity {
 
         createDatabase();
 
-        editTextName = (EditText) findViewById(R.id.deskripsi);
-        editTextDate = (EditText) findViewById(R.id.tanggal);
-        editTextTime = (EditText) findViewById(R.id.waktu);
+        etDeskripsi = (EditText) findViewById(R.id.eDeskripsi);
+        etTanggal = (EditText) findViewById(R.id.eTanggal);
+        etWaktu = (EditText) findViewById(R.id.eWaktu);
 
-        btnAdd = (Button) findViewById(R.id.submit);
+        btnSimpan = (Button) findViewById(R.id.bSimpan);
 
-        btnAdd.setOnClickListener(new View.OnClickListener() {
+        btnSimpan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 insertIntoDB();
@@ -47,19 +47,19 @@ public class InputActivity extends AppCompatActivity {
 
     protected void createDatabase() {
         db = openOrCreateDatabase("Agama", Context.MODE_PRIVATE, null);
-        db.execSQL("CREATE TABLE IF NOT EXISTS reminder(id_reminder INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, deskripsi VARCHAR,tanggal VARCHAR,waktu VARCHAR);");
+        db.execSQL("CREATE TABLE IF NOT EXISTS reminder(id_reminder INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, deskripsi VARCHAR(2000),tanggal DATE, waktu TIME);");
     }
 
     protected void insertIntoDB() {
-        String name = editTextName.getText().toString().trim();
-        String date = editTextDate.getText().toString().trim();
-        String time = editTextTime.getText().toString().trim();
+        String name = etDeskripsi.getText().toString().trim();
+        String date = etTanggal.getText().toString().trim();
+        String time = etWaktu.getText().toString().trim();
         if (name.equals("") || date.equals("") || time.equals("")) {
-            Toast.makeText(getApplicationContext(), "Isi Semua Field!", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "Data Belum Lengkap!", Toast.LENGTH_LONG).show();
             return;
         }
 
-        String query = "INSERT INTO reminder (deskripsi,tanggal,waktu) VALUES('" + name + "', '" + date + "', '" + time + "');";
+        String query = "INSERT INTO reminder (deskripsi, tanggal, waktu) VALUES('" + name + "', '" + date + "', '" + time + "');";
         db.execSQL(query);
         Toast.makeText(getApplicationContext(), "Data Tersimpan!", Toast.LENGTH_LONG).show();
     }
