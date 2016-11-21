@@ -55,10 +55,10 @@ public class ReminderAdapter extends RecyclerView.Adapter<ReminderAdapter.ViewHo
 
         public ViewHolder(View itemView) {
             super(itemView);
-            jam = (TextView) itemView.findViewById(R.id.tvJam);
-            sholat = (TextView) itemView.findViewById(R.id.tvSholat);
-            status = (TextView) itemView.findViewById(R.id.tvStatus);
-            sound = (ImageView) itemView.findViewById(R.id.sound);
+            jam = (TextView) itemView.findViewById(R.id.JamDzuhur);
+            sholat = (TextView) itemView.findViewById(R.id.SholatDzuhur);
+            status = (TextView) itemView.findViewById(R.id.StatusDzuhur);
+            sound = (ImageView) itemView.findViewById(R.id.AlarmDzuhur);
         }
     }
 }

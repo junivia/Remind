@@ -126,8 +126,8 @@ public class HinduActivity extends AppCompatActivity {
         public Fragment getItem(int position) {
             switch (position) {
                 case 0:
-                    ReminderHindu tab1 = new ReminderHindu();
-                    return tab1;
+//                    ReminderHindu tab1 = new ReminderHindu();
+//                    return tab1;
                 case 1:
                     doa_hindu tab3 = new doa_hindu();
                     return tab3;

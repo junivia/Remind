@@ -126,8 +126,8 @@ public class KristenActivity extends AppCompatActivity {
         public Fragment getItem(int position) {
             switch (position) {
                 case 0:
-                    reminder_kristen tab1 = new reminder_kristen();
-                    return tab1;
+//                    reminder_kristen tab1 = new reminder_kristen();
+//                    return tab1;
                 case 1:
                     doa_kristen tab2 = new doa_kristen();
                     return tab2;
