@@ -8,8 +8,12 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
 
 public class HinduActivity extends AppCompatActivity {
 
@@ -111,6 +115,47 @@ public class HinduActivity extends AppCompatActivity {
      * A placeholder fragment containing a simple view.
      */
 
+    public static class PlaceholderFragment extends Fragment {
+        /**
+         * The fragment argument representing the section number for this
+         * fragment.
+         */
+        private static final String ARG_SECTION_NUMBER = "section_number";
+
+        public PlaceholderFragment() {
+        }
+
+        /**
+         * Returns a new instance of this fragment for the given section
+         * number.
+         */
+
+        public static HinduActivity.PlaceholderFragment newInstance(int sectionNumber) {
+            HinduActivity.PlaceholderFragment fragment = new HinduActivity.PlaceholderFragment();
+            Bundle args = new Bundle();
+            args.putInt(ARG_SECTION_NUMBER, sectionNumber);
+            fragment.setArguments(args);
+            return fragment;
+        }
+
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                                 Bundle savedInstanceState) {
+            if (getArguments().getInt(ARG_SECTION_NUMBER) == 1) {
+                View rootView = inflater.inflate(R.layout.activity_today_hindu, container, false);
+                return rootView;
+            } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 2) {
+                View rootView = inflater.inflate(R.layout.activity_doa_hindu, container, false);
+                return rootView;
+            } else {
+                View rootView = inflater.inflate(R.layout.fragment_main, container, false);
+                TextView textView = (TextView) rootView.findViewById(R.id.section_label);
+                textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
+                return rootView;
+            }
+
+        }
+    }
 
     /**
      * A {@link FragmentPagerAdapter} that returns a fragment corresponding to
@@ -124,16 +169,7 @@ public class HinduActivity extends AppCompatActivity {
 
         @Override
         public Fragment getItem(int position) {
-            switch (position) {
-                case 0:
-//                    ReminderHindu tab1 = new ReminderHindu();
-//                    return tab1;
-                case 1:
-                    doa_hindu tab3 = new doa_hindu();
-                    return tab3;
-                default:
-                    return null;
-            }
+            return HinduActivity.PlaceholderFragment.newInstance(position + 1);
         }
 
         @Override

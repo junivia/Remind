@@ -39,7 +39,7 @@
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -76,7 +76,7 @@ Amin." />
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -108,7 +108,7 @@ Amin." />
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -136,7 +136,7 @@ Amin." />
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -172,7 +172,7 @@ Amin." />
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView

@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import id.sch.smktelkom_mlg.project.xiirpl107172737.remind.ReminderAdapter.ReminderAdapter;
 import id.sch.smktelkom_mlg.project.xiirpl107172737.remind.model.Reminder;
 
-public class ReminderIslam extends AppCompatActivity {
+public class reminderIslam extends AppCompatActivity {
     private final static int CONNECTION_FAILURE_RESOLUTION_REQUEST = 9000;
     TextView tvHasil;
     String fajr, dzuhur, ashar, maghrib, isya;
