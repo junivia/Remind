@@ -1,6 +1,5 @@
 package id.sch.smktelkom_mlg.project.xiirpl107172737.remind;
 
-import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.RequiresApi;
@@ -163,8 +162,9 @@ public class IslamActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            startActivity(new Intent(IslamActivity.this, InputActivity.class));
+
             return true;
+
         }
 
         return super.onOptionsItemSelected(item);
@@ -188,7 +188,7 @@ public class IslamActivity extends AppCompatActivity {
          * number.
          */
         public static PlaceholderFragment newInstance(int sectionNumber) {
-            PlaceholderFragment fragment = new PlaceholderFragment();
+            IslamActivity.PlaceholderFragment fragment = new IslamActivity.PlaceholderFragment();
             Bundle args = new Bundle();
             args.putInt(ARG_SECTION_NUMBER, sectionNumber);
             fragment.setArguments(args);
