@@ -37,6 +37,7 @@ public class KatolikActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_katolik);
 
+        setTitle("Katolik");
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         // Create the adapter that will return a fragment for each of the three
@@ -50,19 +51,14 @@ public class KatolikActivity extends AppCompatActivity {
         final TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
 
-        tabLayout.getTabAt(0).setIcon(R.drawable.ic_alarm_black_24dp_white);
-        tabLayout.getTabAt(1).setIcon(R.drawable.prayer);
+        tabLayout.getTabAt(0).setIcon(R.drawable.prayer_white);
 
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
                 int position = tab.getPosition();
                 if (position == 0) {
-                    tabLayout.getTabAt(0).setIcon(R.drawable.ic_alarm_black_24dp_white);
-                    tabLayout.getTabAt(1).setIcon(R.drawable.prayer);
-                } else if (position == 1) {
-                    tabLayout.getTabAt(0).setIcon(R.drawable.ic_alarm_black_24dp);
-                    tabLayout.getTabAt(1).setIcon(R.drawable.prayer_white);
+                    tabLayout.getTabAt(0).setIcon(R.drawable.prayer_white);
                 }
             }
 
@@ -142,9 +138,6 @@ public class KatolikActivity extends AppCompatActivity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
             if (getArguments().getInt(ARG_SECTION_NUMBER) == 1) {
-                View rootView = inflater.inflate(R.layout.activity_today_katolik, container, false);
-                return rootView;
-            } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 2) {
                 View rootView = inflater.inflate(R.layout.fragment_katolik_doa, container, false);
                 return rootView;
             } else {
@@ -175,15 +168,13 @@ public class KatolikActivity extends AppCompatActivity {
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 2;
+            return 1;
         }
 
         @Override
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "";
-                case 1:
                     return "";
             }
             return null;
