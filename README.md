@@ -19,7 +19,7 @@
 
 ## Lampiran Video
 
-* Video Aplikasi : 
+* Video Aplikasi : [![Video](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](https://www.youtube.com/watch?v=FLL-ted7fZI)
 
 ## Lampiran File APK
 
