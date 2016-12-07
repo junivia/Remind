@@ -28,7 +28,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
-            android:maxLines="1"
             android:padding="16dp"
             android:text="اَلْحَمْدُ ِللهِ الَّذِىْ اَحْيَانَا بَعْدَمَآ اَمَاتَنَا وَاِلَيْهِ النُّشُوْرُ"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
@@ -367,7 +366,7 @@
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="_______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -402,7 +401,7 @@
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="_______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -437,7 +436,7 @@
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="_______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -472,7 +471,7 @@
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="_______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -507,7 +506,7 @@
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="_______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -542,7 +541,7 @@
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="_______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -577,7 +576,7 @@
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="_______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -612,7 +611,7 @@
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="_______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -647,7 +646,7 @@
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="_______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -682,7 +681,7 @@
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="_______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -717,7 +716,7 @@
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="_______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -752,7 +751,7 @@
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="_______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -787,7 +786,7 @@
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="_______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -797,6 +796,7 @@
             android:maxLines="10"
             android:paddingTop="16dp"
             android:text="Doa Memohon Dikasihani Bila Diambil Nyawanya dan Dipelihara Jika Dihidupkan Kembali."
+            android:textAlignment="center"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -822,7 +822,7 @@
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="_______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -858,14 +858,13 @@
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="_______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
-            android:maxLines="1"
             android:paddingTop="16dp"
             android:text="Doa Memohon Dimatikan dan Dihidupkan sebagai Muslim"
             android:textAlignment="center"
@@ -895,7 +894,7 @@
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="_______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
     </LinearLayout>
 

@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="1000px"
-    android:background="#ffffff"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="1000px"
+        android:background="#ffffff"
+        android:orientation="vertical">
 
 
     <RelativeLayout
@@ -19,12 +22,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="23:59"
-        android:textSize="40dp" />
+        android:textSize="25dp" />
 
     <TextView
         android:id="@+id/SholatSubuh"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="13dp"
         android:layout_marginStart="13dp"
@@ -34,30 +37,8 @@
         android:maxLines="1"
         android:text="Subuh"
         android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="25dp"
         tools:text="Sholat" />
-
-    <TextView
-        android:id="@+id/StatusSubuh"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@id/SholatSubuh"
-        android:layout_alignStart="@id/SholatSubuh"
-        android:layout_below="@id/SholatSubuh"
-        android:ellipsize="end"
-        android:maxLines="2"
-        android:text="Alarm off"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        tools:text="Status" />
-
-    <ImageView
-        android:id="@+id/AlarmSubuh"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/StatusSubuh"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        app:srcCompat="@drawable/ic_volume_off_black_24dp" />
 
 
 </RelativeLayout>
@@ -73,12 +54,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="23:59"
-            android:textSize="40dp" />
+            android:textSize="25dp" />
 
         <TextView
             android:id="@+id/SholatThulu"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="13dp"
             android:layout_marginStart="13dp"
@@ -88,30 +69,8 @@
             android:maxLines="1"
             android:text="Terbit"
             android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textSize="25dp"
             tools:text="Sholat" />
-
-        <TextView
-            android:id="@+id/StatusThulu"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@id/SholatThulu"
-            android:layout_alignStart="@id/SholatThulu"
-            android:layout_below="@id/SholatThulu"
-            android:ellipsize="end"
-            android:maxLines="2"
-            android:text="Alarm off"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            tools:text="Status" />
-
-        <ImageView
-            android:id="@+id/AlarmThulu"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/StatusThulu"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            app:srcCompat="@drawable/ic_volume_off_black_24dp" />
 
 
     </RelativeLayout>
@@ -127,12 +86,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="23:59"
-            android:textSize="40dp" />
+            android:textSize="25dp" />
 
         <TextView
             android:id="@+id/SholatDzuhur"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="13dp"
             android:layout_marginStart="13dp"
@@ -142,30 +101,8 @@
             android:maxLines="1"
             android:text="Dzuhur"
             android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textSize="25dp"
             tools:text="Sholat" />
-
-        <TextView
-            android:id="@+id/StatusDzuhur"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@id/SholatDzuhur"
-            android:layout_alignStart="@id/SholatDzuhur"
-            android:layout_below="@id/SholatDzuhur"
-            android:ellipsize="end"
-            android:maxLines="2"
-            android:text="Alarm off"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            tools:text="Status" />
-
-        <ImageView
-            android:id="@+id/AlarmDzuhur"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/StatusDzuhur"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            app:srcCompat="@drawable/ic_volume_off_black_24dp" />
 
 
     </RelativeLayout>
@@ -181,12 +118,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="23:59"
-            android:textSize="40dp" />
+            android:textSize="25dp" />
 
         <TextView
             android:id="@+id/SholatAshar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="13dp"
             android:layout_marginStart="13dp"
@@ -196,30 +133,8 @@
             android:maxLines="1"
             android:text="Ashar"
             android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textSize="25dp"
             tools:text="Sholat" />
-
-        <TextView
-            android:id="@+id/StatusAshar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@id/SholatAshar"
-            android:layout_alignStart="@id/SholatAshar"
-            android:layout_below="@id/SholatAshar"
-            android:ellipsize="end"
-            android:maxLines="2"
-            android:text="Alarm off"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            tools:text="Status" />
-
-        <ImageView
-            android:id="@+id/AlarmAshar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/StatusAshar"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            app:srcCompat="@drawable/ic_volume_off_black_24dp" />
 
 
     </RelativeLayout>
@@ -235,12 +150,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="23:59"
-            android:textSize="40dp" />
+            android:textSize="25dp" />
 
         <TextView
             android:id="@+id/SholatMaghrib"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="13dp"
             android:layout_marginStart="13dp"
@@ -250,31 +165,8 @@
             android:maxLines="1"
             android:text="Maghrib"
             android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textSize="25dp"
             tools:text="Sholat" />
-
-        <TextView
-            android:id="@+id/StatusMaghrib"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@id/SholatMaghrib"
-            android:layout_alignStart="@id/SholatMaghrib"
-            android:layout_below="@id/SholatMaghrib"
-            android:ellipsize="end"
-            android:maxLines="2"
-            android:text="Alarm off"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            tools:text="Status" />
-
-        <ImageView
-            android:id="@+id/AlarmMaghrib"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/StatusMaghrib"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            app:srcCompat="@drawable/ic_volume_off_black_24dp" />
-
 
     </RelativeLayout>
 
@@ -289,12 +181,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="23:59"
-            android:textSize="40dp" />
+            android:textSize="25dp" />
 
         <TextView
             android:id="@+id/SholatIsya"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="13dp"
             android:layout_marginStart="13dp"
@@ -304,31 +196,10 @@
             android:maxLines="1"
             android:text="Isya"
             android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textSize="25dp"
             tools:text="Sholat" />
-
-        <TextView
-            android:id="@+id/StatusIsya"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@id/SholatIsya"
-            android:layout_alignStart="@id/SholatIsya"
-            android:layout_below="@id/SholatIsya"
-            android:ellipsize="end"
-            android:maxLines="2"
-            android:text="Alarm off"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            tools:text="Status" />
-
-        <ImageView
-            android:id="@+id/AlarmIsya"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/StatusIsya"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            app:srcCompat="@drawable/ic_volume_off_black_24dp" />
 
 
     </RelativeLayout>
 </LinearLayout>
+</ScrollView>

@@ -205,7 +205,7 @@ Amin." />
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -237,7 +237,7 @@ Amin." />
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -267,7 +267,7 @@ Amin." />
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
         <TextView
             android:layout_width="match_parent"
@@ -298,7 +298,7 @@ Amin." />
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -337,7 +337,7 @@ Yesus, Engkau bersabda, 'Mintalah maka kamu akan menerimanya, carilah maka kamu 
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -373,7 +373,7 @@ Amin.
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -405,7 +405,7 @@ Ya Allah, perkenankanlah kini kami pergi dalam damai, dan selalu ingat akan sabd
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -438,7 +438,7 @@ Engkau mengutus Putra-Mu, Yesus Kristus, agar kasih-Mu menjadi nyata dalam hidup
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -470,7 +470,7 @@ Amin." />
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -502,7 +502,7 @@ Amin. " />
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -534,7 +534,7 @@ Amin." />
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -566,7 +566,7 @@ Amin." />
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -600,7 +600,7 @@ Amin." />
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
         <TextView
@@ -634,7 +634,7 @@ Amin." />
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
-            android:text="______________________________________"
+            android:text="________________________________"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
     </LinearLayout>
 

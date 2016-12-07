@@ -36,6 +36,7 @@ public class reminderIslam extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reminder_islam);
 
+        setTitle("Waktu Sholat");
 
     }
 

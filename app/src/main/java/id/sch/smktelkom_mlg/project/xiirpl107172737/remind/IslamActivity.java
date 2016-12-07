@@ -51,7 +51,7 @@ public class IslamActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_islam);
 
-
+        setTitle("Islam");
         Ion.with(getApplicationContext())
                 .load("http://api.aladhan.com/timings/1398332113?latitude=-7.976346&longitude=112.659908&timezonestring=Asia/Jakarta&method=2")
                 .asString()
@@ -77,7 +77,7 @@ public class IslamActivity extends AppCompatActivity {
                             terbit.setText(timings.getString("Sunrise"));
 
 
-                            TextView stDzuhur = (TextView) findViewById(R.id.StatusDzuhur);
+//                            TextView stDzuhur = (TextView) findViewById(R.id.StatusDzuhur);
                             DateFormat dateFormatter = new SimpleDateFormat("HHMMSS");
                             dateFormatter.setLenient(false);
                             Date today = new Date();
@@ -106,26 +106,19 @@ public class IslamActivity extends AppCompatActivity {
         final TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
 
-        tabLayout.getTabAt(0).setIcon(R.drawable.ic_alarm_black_24dp_white);
-        tabLayout.getTabAt(1).setIcon(R.drawable.mosque);
-        tabLayout.getTabAt(2).setIcon(R.drawable.islamic_prayer);
+        tabLayout.getTabAt(0).setIcon(R.drawable.mosque);
+        tabLayout.getTabAt(1).setIcon(R.drawable.islamic_prayer);
 
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
                 int position = tab.getPosition();
                 if (position == 0) {
-                    tabLayout.getTabAt(0).setIcon(R.drawable.ic_alarm_black_24dp_white);
-                    tabLayout.getTabAt(1).setIcon(R.drawable.mosque);
-                    tabLayout.getTabAt(2).setIcon(R.drawable.islamic_prayer);
+                    tabLayout.getTabAt(0).setIcon(R.drawable.mosque_white);
+                    tabLayout.getTabAt(1).setIcon(R.drawable.islamic_prayer);
                 } else if (position == 1) {
-                    tabLayout.getTabAt(0).setIcon(R.drawable.ic_alarm_black_24dp);
-                    tabLayout.getTabAt(1).setIcon(R.drawable.mosque_white);
-                    tabLayout.getTabAt(2).setIcon(R.drawable.islamic_prayer);
-                } else if (position == 2) {
-                    tabLayout.getTabAt(0).setIcon(R.drawable.ic_alarm_black_24dp);
-                    tabLayout.getTabAt(1).setIcon(R.drawable.mosque);
-                    tabLayout.getTabAt(2).setIcon(R.drawable.islamic_prayer_white);
+                    tabLayout.getTabAt(0).setIcon(R.drawable.mosque);
+                    tabLayout.getTabAt(1).setIcon(R.drawable.islamic_prayer_white);
                 }
             }
 
@@ -199,13 +192,10 @@ public class IslamActivity extends AppCompatActivity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
             if (getArguments().getInt(ARG_SECTION_NUMBER) == 1) {
-                View rootView = inflater.inflate(R.layout.activity_today_islam, container, false);
-                return rootView;
-            } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 2) {
                 View rootView = inflater.inflate(R.layout.reminder_list, container, false);
                 TextView textView = (TextView) rootView.findViewById(R.id.section_label);
                 return rootView;
-            } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 3) {
+            } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 2) {
                 View rootView = inflater.inflate(R.layout.fragment_islam_doa, container, false);
                 TextView textView = (TextView) rootView.findViewById(R.id.section_label);
                 return rootView;
@@ -239,7 +229,7 @@ public class IslamActivity extends AppCompatActivity {
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 3;
+            return 2;
         }
 
         @Override
@@ -248,8 +238,6 @@ public class IslamActivity extends AppCompatActivity {
                 case 0:
                     return "";
                 case 1:
-                    return "";
-                case 2:
                     return "";
             }
             return null;
