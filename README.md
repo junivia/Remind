@@ -1,50 +1,54 @@
 # Remind
 
-Nama Anggota:
-<br>07 Alherani Junivia Nugraha     (4115/1180.070)
-<br>17 Fadhil Ikhsanta              (4174/1239.070)
-<br>27 Muhammad Rafi Raharjo        (4222/1287.070)
-<br>37 Tefani Diva Wibowo           (4285/1350.070)
+## Nama App
 
-User Github:
-<br>07 junivia
-<br>17 Ikhsannotes
-<br>27 rafiraharjo
-<br>37 TefaniDivaWibowo
+* Nama Aplikasi : Remind
 
-Kelas: XII RPL 1
+## Penjelasan Aplikasi
 
-Nama Sekolah: SMK Telkom Malang
+* Remind merupakan suatu aplikasi yang berisikan doa-doa dari berbagai agama. Disini Anda dapat mengetahui doa-doa harian dari agama Islam, Hindu, Katolik dan Kristen. Untuk agama Islam, terdapat data waktu sholat.
 
-#Project
+## Screenshoot Aplikasi
+1. 
+2. 
+3. 
+4. 
+5. 
 
-Nama Project: Remind
+## Lampiran Video
 
-Deskripsi: Remind merupakan suatu aplikasi reminder ibadah untuk agama Islam, Hinda, Kristen dan Katolik.
+* Video Aplikasi : 
 
-#Screenshot Project
+## Lampiran File APK
 
-Tampilan Splash Screen
+* Link File Apk dari Aplikasi :
 
-<br>![Splash Screen](https://github.com/junivia/Remind/blob/master/SplashActivity.png)
+## Identitas Anggota Kelompok
 
-<br>Halaman Utama Remind
+1. Nama : Alherani Junivia 
+   <br>Kelas : XIIRPL1 
+   <br>No Urut: 07
+   <br>NIS : 4115/1180.070
+   <br>User : junivia
 
-<br>![Halaman Utama ](https://github.com/junivia/Remind/blob/master/HalamanUtama.png)
+2. Nama : Fadhil Ikhsanta
+   <br>Kelas : XIIRPL1 
+   <br>No Urut: 17
+   <br>NIS : 4174/1239.070
+   <br>User : Ikhsannotes
 
-<br>Doa-doa Islam
+3. Nama : Muhammad Rafi Raharjo
+   <br>Kelas : XIIRPL1 
+   <br>No Urut: 27
+   <br>NIS : 4222/1287.070
+   <br>User : rafiraharjo 
 
-<br>![Doa Islam](https://github.com/junivia/Remind/blob/master/DoaIslam.png)
+4. Nama : Tefani Diva Wibowo
+   <br>Kelas : XIIRPL1 
+   <br>No Urut: 37
+   <br>NIS : 4285/1350.070
+   <br>User : TefaniDivaWibowo
 
-<br>Doa-doa Hindu
 
-<br>![Doa Hindu](https://github.com/junivia/Remind/blob/master/DoaHindu.png)
-
-<br>Doa-doa Kristen
-
-<br>![Doa Kristen](https://github.com/junivia/Remind/blob/master/DoaKristen.png)
-
-<br>Doa-doa Katolik
-
-<br>![Doa Katolik](https://github.com/junivia/Remind/blob/master/DoaKatolik.png)
-
+## Nama Sekolah
+* SMK Telkom Malang 
